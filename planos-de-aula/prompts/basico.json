@@ -30,6 +30,12 @@
       "fields": [
         { "id": "avaliacao", "label": "Forma de avaliação", "control": "textarea" }
       ]
+    },
+    {
+      "title": "Referências",
+      "fields": [
+        { "id": "referencias", "label": "Referências e fontes de consulta (opcional)", "control": "textarea", "required": false }
+      ]
     }
   ]
 }

@@ -15,3 +15,5 @@ O gerador básico usa:
 Para criar outro gerador, crie um `.txt` com o prompt, um `.json` com os campos correspondentes e uma página que carregue `gerador.js` e aponte para o `.json` com `data-prompt-config`.
 
 Os campos com `sharedKey` na configuração são salvos em `sessionStorage` conforme o usuário digita. No prompt básico, apenas disciplina, ano/série, duração e tema têm essas chaves; os outros campos não são gravados. Outro gerador aberto na mesma aba recupera o valor se usar a mesma chave. Esses dados não são enviados ao servidor e são apagados ao fechar a aba. O botão “Limpar campos” remove os valores compartilhados dos campos do formulário atual.
+
+Um campo com `"required": false` é opcional. Se ficar vazio, sua linha é omitida do prompt gerado. O campo de referências do prompt básico usa essa opção.

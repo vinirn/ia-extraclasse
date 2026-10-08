@@ -66,7 +66,7 @@ function criarCampo(campo) {
   const entrada = document.createElement(campo.control === "textarea" ? "textarea" : "input");
   entrada.id = campo.id;
   entrada.name = campo.id;
-  entrada.required = true;
+  entrada.required = campo.required !== false;
   if (campo.control === "textarea") entrada.rows = 3;
   else entrada.type = "text";
   if (campo.placeholder) entrada.placeholder = campo.placeholder;
@@ -103,6 +103,10 @@ function gerarTexto(valores) {
     if (indice === -1) throw new Error(`O campo “${campo.label}” não foi encontrado no modelo.`);
 
     const valor = valores[campo.id].replace(/\s*\n\s*/g, " ").trim();
+    if (!valor && campo.required === false) {
+      linhas.splice(indice, 1);
+      continue;
+    }
     linhas[indice] = `${campo.label}: ${valor}`;
   }
 
