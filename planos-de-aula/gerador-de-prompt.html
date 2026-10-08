@@ -25,8 +25,7 @@
 
     <section id="resultado" class="card" aria-labelledby="resultado-titulo" hidden>
       <h2 id="resultado-titulo">Seu prompt</h2>
-      <p>Revise o texto antes de usá-lo em uma ferramenta de IA.</p>
-      <pre id="texto-prompt" class="prompt-output" tabindex="0"></pre>
+      <textarea id="texto-prompt" class="prompt-output" aria-labelledby="resultado-titulo" rows="16" wrap="soft" spellcheck="false" readonly></textarea>
       <button id="copiar-prompt" class="button" type="button">Copiar prompt</button>
     </section>
     <p id="mensagem" class="status" role="status" aria-live="polite">Carregando campos do prompt…</p>

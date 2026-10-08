@@ -79,14 +79,20 @@ input:focus-visible, textarea:focus-visible, .button:focus-visible, .back-link:f
 textarea { resize: vertical; }
 .actions { display: flex; flex-wrap: wrap; gap: 0.7rem; margin-top: 1.5rem; }
 .prompt-output {
-  overflow-x: auto;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  min-height: 20rem;
+  overflow-x: hidden;
   padding: 1rem;
-  border: 1px solid #d5e4da;
+  border: 2px solid #94bca5;
   border-radius: 0.4rem;
   background: #f6f8f6;
   white-space: pre-wrap;
   overflow-wrap: anywhere;
-  line-height: 1.5;
+  word-break: break-word;
+  font: 0.95rem/1.5 ui-monospace, SFMono-Regular, Consolas, monospace;
 }
 .status { min-height: 1.5em; }
 [disabled] { cursor: wait; opacity: 0.6; }

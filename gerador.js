@@ -92,7 +92,7 @@ formulario.addEventListener("submit", (evento) => {
 
   try {
     promptGerado = gerarTexto(valores);
-    textoPrompt.textContent = promptGerado;
+    textoPrompt.value = promptGerado;
     resultado.hidden = false;
     mensagem.textContent = "Prompt gerado. Confira o resultado antes de copiar.";
     resultado.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -105,7 +105,7 @@ formulario.addEventListener("submit", (evento) => {
 
 formulario.addEventListener("reset", () => {
   promptGerado = "";
-  textoPrompt.textContent = "";
+  textoPrompt.value = "";
   resultado.hidden = true;
   mensagem.textContent = "Campos limpos.";
 });
@@ -118,6 +118,7 @@ copiarPrompt.addEventListener("click", async () => {
   } catch {
     mensagem.textContent = "Não foi possível copiar automaticamente. Selecione o texto acima para copiá-lo.";
     textoPrompt.focus();
+    textoPrompt.select();
   }
 });
 
