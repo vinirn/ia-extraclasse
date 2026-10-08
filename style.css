@@ -85,6 +85,7 @@ textarea { resize: vertical; }
   max-width: 100%;
   min-width: 0;
   min-height: 20rem;
+  margin-bottom: 1.25rem;
   overflow-x: hidden;
   padding: 1rem;
   border: 2px solid #94bca5;
