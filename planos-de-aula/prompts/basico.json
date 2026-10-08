@@ -22,7 +22,7 @@
       "title": "Contexto da turma",
       "fields": [
         { "id": "perfil-turma", "label": "Perfil da turma", "control": "textarea" },
-        { "id": "recursos", "label": "Recursos disponíveis", "control": "textarea" }
+        { "id": "recursos", "label": "Recursos didáticos", "control": "textarea" }
       ]
     },
     {
