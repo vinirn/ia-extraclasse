@@ -15,7 +15,8 @@
       "title": "Planejamento",
       "fields": [
         { "id": "conteudo", "label": "Conteúdo", "control": "textarea" },
-        { "id": "objetivo", "label": "Objetivo principal", "control": "textarea" }
+        { "id": "objetivo", "label": "Objetivo principal", "control": "textarea" },
+        { "id": "bncc", "label": "Habilidades e competências da BNCC (opcional)", "control": "textarea", "required": false }
       ]
     },
     {

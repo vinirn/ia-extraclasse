@@ -6,6 +6,7 @@ Duração:
 Tema:
 Conteúdo:
 Objetivo principal:
+Habilidades e competências da BNCC (opcional):
 Perfil da turma:
 Recursos didáticos:
 Forma de avaliação:
@@ -13,4 +14,5 @@ Referências e fontes de consulta (opcional):
 
 Organize o plano com: objetivos de aprendizagem, materiais necessários, etapas da aula com tempo estimado, atividade dos estudantes, fechamento da aula e forma simples de avaliação.
 Use linguagem objetiva e adequada ao trabalho docente.
+Use somente os códigos e descrições da BNCC fornecidos pelo professor. Se o campo estiver vazio, não invente códigos.
 Se forem fornecidas referências, use-as como base e não invente fontes. Se nenhuma for fornecida, não atribua o plano a fontes específicas sem verificação.
