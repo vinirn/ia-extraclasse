@@ -50,3 +50,44 @@ p { line-height: 1.6; }
 
 .button:hover, .button:focus-visible { background: #0d4631; }
 .back-link { display: inline-block; margin-bottom: 2rem; color: #155c42; }
+
+.button { border: 0; cursor: pointer; font: inherit; }
+.button-secondary { background: #e3eee7; color: #155c42; }
+.button-secondary:hover, .button-secondary:focus-visible { background: #cde2d4; }
+
+.form-card { margin-top: 2rem; }
+.form-grid { display: grid; gap: 1.2rem; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.field { display: flex; flex-direction: column; gap: 0.4rem; }
+.field-wide { grid-column: 1 / -1; }
+label { font-weight: 700; }
+input, textarea {
+  width: 100%;
+  padding: 0.7rem;
+  border: 1px solid #a9c3b4;
+  border-radius: 0.4rem;
+  background: #fff;
+  color: #18342a;
+  font: inherit;
+}
+input:focus-visible, textarea:focus-visible, .button:focus-visible, .back-link:focus-visible {
+  outline: 3px solid #f3bd5b;
+  outline-offset: 2px;
+}
+textarea { resize: vertical; }
+.actions { display: flex; flex-wrap: wrap; gap: 0.7rem; margin-top: 1.5rem; }
+.prompt-output {
+  overflow-x: auto;
+  padding: 1rem;
+  border: 1px solid #d5e4da;
+  border-radius: 0.4rem;
+  background: #f6f8f6;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  line-height: 1.5;
+}
+.status { min-height: 1.5em; }
+[hidden] { display: none !important; }
+
+@media (max-width: 38rem) {
+  .form-grid { grid-template-columns: 1fr; }
+}

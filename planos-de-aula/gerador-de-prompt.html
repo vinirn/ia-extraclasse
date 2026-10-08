@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Preencha os dados da aula e gere um prompt para planejar sua aula com apoio de IA.">
+  <title>Gerador de prompt — Planos de aula — IA Extraclasse</title>
+  <link rel="stylesheet" href="../style.css">
+  <script src="gerador-de-prompt.js" defer></script>
+</head>
+<body>
+  <main class="container">
+    <a class="back-link" href="./">← Planos de aula</a>
+    <p class="eyebrow">Planos de aula</p>
+    <h1>Gerador de prompt</h1>
+    <p>Preencha os campos para gerar o prompt básico com os dados da sua aula. Os dados ficam apenas nesta página enquanto ela estiver aberta.</p>
+
+    <form id="formulario-prompt" class="card form-card">
+      <div class="form-grid">
+        <div class="field">
+          <label for="disciplina">Disciplina</label>
+          <input id="disciplina" name="disciplina" type="text" required>
+        </div>
+        <div class="field">
+          <label for="ano-serie">Ano/série</label>
+          <input id="ano-serie" name="ano-serie" type="text" required>
+        </div>
+        <div class="field">
+          <label for="duracao">Duração</label>
+          <input id="duracao" name="duracao" type="text" placeholder="Ex.: 50 minutos" required>
+        </div>
+        <div class="field">
+          <label for="tema">Tema</label>
+          <input id="tema" name="tema" type="text" required>
+        </div>
+        <div class="field field-wide">
+          <label for="conteudo">Conteúdo</label>
+          <textarea id="conteudo" name="conteudo" rows="2" required></textarea>
+        </div>
+        <div class="field field-wide">
+          <label for="objetivo">Objetivo principal</label>
+          <textarea id="objetivo" name="objetivo" rows="2" required></textarea>
+        </div>
+        <div class="field field-wide">
+          <label for="perfil-turma">Perfil da turma</label>
+          <textarea id="perfil-turma" name="perfil-turma" rows="2" required></textarea>
+        </div>
+        <div class="field field-wide">
+          <label for="recursos">Recursos disponíveis</label>
+          <textarea id="recursos" name="recursos" rows="2" required></textarea>
+        </div>
+        <div class="field field-wide">
+          <label for="avaliacao">Forma de avaliação</label>
+          <textarea id="avaliacao" name="avaliacao" rows="2" required></textarea>
+        </div>
+      </div>
+      <div class="actions">
+        <button class="button" type="submit">Gerar prompt</button>
+        <button class="button button-secondary" type="reset">Limpar campos</button>
+      </div>
+    </form>
+
+    <section id="resultado" class="card" aria-labelledby="resultado-titulo" hidden>
+      <h2 id="resultado-titulo">Seu prompt</h2>
+      <p>Revise o texto antes de usá-lo em uma ferramenta de IA.</p>
+      <pre id="texto-prompt" class="prompt-output" tabindex="0"></pre>
+      <button id="copiar-prompt" class="button" type="button">Copiar prompt</button>
+    </section>
+    <p id="mensagem" class="status" role="status" aria-live="polite"></p>
+  </main>
+</body>
+</html>
