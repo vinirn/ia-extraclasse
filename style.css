@@ -56,6 +56,9 @@ p { line-height: 1.6; }
 .button-secondary:hover, .button-secondary:focus-visible { background: #cde2d4; }
 
 .form-card { margin-top: 2rem; }
+.form-section { margin: 0 0 1.5rem; padding: 1.25rem; border: 1px solid #d5e4da; border-radius: 0.6rem; }
+.form-section:last-child { margin-bottom: 0; }
+.form-section legend { padding: 0 0.4rem; color: #155c42; font-size: 1.15rem; font-weight: 700; }
 .form-grid { display: grid; gap: 1.2rem; grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .field { display: flex; flex-direction: column; gap: 0.4rem; }
 .field-wide { grid-column: 1 / -1; }
@@ -86,6 +89,7 @@ textarea { resize: vertical; }
   line-height: 1.5;
 }
 .status { min-height: 1.5em; }
+[disabled] { cursor: wait; opacity: 0.6; }
 [hidden] { display: none !important; }
 
 @media (max-width: 38rem) {

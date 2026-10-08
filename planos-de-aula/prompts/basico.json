@@ -1,0 +1,34 @@
+{
+  "template": "prompts/basico.txt",
+  "groups": [
+    {
+      "title": "Identificação da aula",
+      "fields": [
+        { "id": "disciplina", "label": "Disciplina", "control": "input" },
+        { "id": "ano-serie", "label": "Ano/série", "control": "input" },
+        { "id": "duracao", "label": "Duração", "control": "input", "placeholder": "Ex.: 50 minutos" },
+        { "id": "tema", "label": "Tema", "control": "input" }
+      ]
+    },
+    {
+      "title": "Planejamento",
+      "fields": [
+        { "id": "conteudo", "label": "Conteúdo", "control": "textarea" },
+        { "id": "objetivo", "label": "Objetivo principal", "control": "textarea" }
+      ]
+    },
+    {
+      "title": "Contexto da turma",
+      "fields": [
+        { "id": "perfil-turma", "label": "Perfil da turma", "control": "textarea" },
+        { "id": "recursos", "label": "Recursos disponíveis", "control": "textarea" }
+      ]
+    },
+    {
+      "title": "Avaliação",
+      "fields": [
+        { "id": "avaliacao", "label": "Forma de avaliação", "control": "textarea" }
+      ]
+    }
+  ]
+}
