@@ -10,6 +10,34 @@ const mensagem = document.querySelector("#mensagem");
 let configuracao;
 let modelo;
 let promptGerado = "";
+let compartilhamentoDisponivel = true;
+const prefixoSessao = "ia-extraclasse:campo:";
+
+function chaveCompartilhada(campo) {
+  return campo.sharedKey ? `${prefixoSessao}${campo.sharedKey}` : null;
+}
+
+function lerCompartilhado(campo) {
+  const chave = chaveCompartilhada(campo);
+  if (!chave) return null;
+  try {
+    return sessionStorage.getItem(chave);
+  } catch {
+    compartilhamentoDisponivel = false;
+    return null;
+  }
+}
+
+function salvarCompartilhado(campo, valor) {
+  const chave = chaveCompartilhada(campo);
+  if (!chave) return;
+  try {
+    if (valor) sessionStorage.setItem(chave, valor);
+    else sessionStorage.removeItem(chave);
+  } catch {
+    compartilhamentoDisponivel = false;
+  }
+}
 
 async function carregarTexto(caminho) {
   const resposta = await fetch(caminho);
@@ -32,6 +60,9 @@ function criarCampo(campo) {
   if (campo.control === "textarea") entrada.rows = 3;
   else entrada.type = "text";
   if (campo.placeholder) entrada.placeholder = campo.placeholder;
+  entrada.autocomplete = "off";
+  entrada.value = lerCompartilhado(campo) ?? "";
+  entrada.addEventListener("input", () => salvarCompartilhado(campo, entrada.value));
 
   caixa.append(rotulo, entrada);
   return caixa;
@@ -74,7 +105,9 @@ async function iniciar() {
     modelo = await carregarTexto(configuracao.template);
     montarFormulario(configuracao.groups);
     botaoGerar.disabled = false;
-    mensagem.textContent = "Preencha os campos para gerar o prompt.";
+    mensagem.textContent = compartilhamentoDisponivel
+      ? "Preencha os campos para gerar o prompt. Os dados podem ser usados em outros geradores nesta aba."
+      : "Preencha os campos para gerar o prompt. O navegador não permitiu compartilhar os dados nesta aba.";
   } catch (erro) {
     mensagem.textContent = erro.message;
   }
@@ -83,7 +116,7 @@ async function iniciar() {
 formulario.addEventListener("submit", (evento) => {
   evento.preventDefault();
 
-  // Os dados existem apenas em variáveis desta página; não são enviados nem salvos.
+  // Os dados são locais ao navegador; os campos compartilhados usam sessionStorage.
   const valores = Object.fromEntries(
     configuracao.groups.flatMap((group) => group.fields).map((campo) => [
       campo.id, document.getElementById(campo.id).value.trim(),
@@ -104,10 +137,15 @@ formulario.addEventListener("submit", (evento) => {
 });
 
 formulario.addEventListener("reset", () => {
+  if (configuracao) {
+    for (const campo of configuracao.groups.flatMap((group) => group.fields)) {
+      salvarCompartilhado(campo, "");
+    }
+  }
   promptGerado = "";
   textoPrompt.value = "";
   resultado.hidden = true;
-  mensagem.textContent = "Campos limpos.";
+  mensagem.textContent = "Campos e dados compartilhados desta página limpos.";
 });
 
 copiarPrompt.addEventListener("click", async () => {

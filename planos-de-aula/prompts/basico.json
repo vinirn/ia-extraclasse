@@ -4,30 +4,30 @@
     {
       "title": "Identificação da aula",
       "fields": [
-        { "id": "disciplina", "label": "Disciplina", "control": "input" },
-        { "id": "ano-serie", "label": "Ano/série", "control": "input" },
-        { "id": "duracao", "label": "Duração", "control": "input", "placeholder": "Ex.: 50 minutos" },
-        { "id": "tema", "label": "Tema", "control": "input" }
+        { "id": "disciplina", "label": "Disciplina", "control": "input", "sharedKey": "disciplina" },
+        { "id": "ano-serie", "label": "Ano/série", "control": "input", "sharedKey": "ano-serie" },
+        { "id": "duracao", "label": "Duração", "control": "input", "placeholder": "Ex.: 50 minutos", "sharedKey": "duracao" },
+        { "id": "tema", "label": "Tema", "control": "input", "sharedKey": "tema" }
       ]
     },
     {
       "title": "Planejamento",
       "fields": [
-        { "id": "conteudo", "label": "Conteúdo", "control": "textarea" },
-        { "id": "objetivo", "label": "Objetivo principal", "control": "textarea" }
+        { "id": "conteudo", "label": "Conteúdo", "control": "textarea", "sharedKey": "conteudo" },
+        { "id": "objetivo", "label": "Objetivo principal", "control": "textarea", "sharedKey": "objetivo" }
       ]
     },
     {
       "title": "Contexto da turma",
       "fields": [
-        { "id": "perfil-turma", "label": "Perfil da turma", "control": "textarea" },
-        { "id": "recursos", "label": "Recursos disponíveis", "control": "textarea" }
+        { "id": "perfil-turma", "label": "Perfil da turma", "control": "textarea", "sharedKey": "perfil-turma" },
+        { "id": "recursos", "label": "Recursos disponíveis", "control": "textarea", "sharedKey": "recursos" }
       ]
     },
     {
       "title": "Avaliação",
       "fields": [
-        { "id": "avaliacao", "label": "Forma de avaliação", "control": "textarea" }
+        { "id": "avaliacao", "label": "Forma de avaliação", "control": "textarea", "sharedKey": "avaliacao" }
       ]
     }
   ]

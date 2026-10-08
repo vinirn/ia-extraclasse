@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Preencha os dados da aula e gere um prompt para planejar sua aula com apoio de IA.">
-  <title>Gerador do prompt básico para plano de aula — IA Extraclasse</title>
+  <title>Prompt básico — Gerador de prompt para plano de aula — IA Extraclasse</title>
   <link rel="stylesheet" href="../style.css">
   <script src="../gerador.js" defer></script>
 </head>
@@ -12,10 +12,11 @@
   <main class="container" data-prompt-config="prompts/basico.json">
     <a class="back-link" href="./">← Planos de aula</a>
     <p class="eyebrow">Planos de aula</p>
-    <h1>Gerador do prompt básico para plano de aula</h1>
-    <p>Preencha os campos para gerar o prompt básico com os dados da sua aula. Os dados ficam apenas nesta página enquanto ela estiver aberta.</p>
+    <h1>Prompt básico</h1>
+    <p class="subtitle">Gerador de prompt para plano de aula</p>
+    <p>Preencha os campos para gerar o prompt básico. Os dados podem ser reutilizados por outros geradores nesta aba e são apagados ao fechá-la. O botão “Limpar campos” remove os valores compartilhados deste formulário.</p>
 
-    <form id="formulario-prompt" class="card form-card">
+    <form id="formulario-prompt" class="card form-card" autocomplete="off">
       <div id="grupos-campos"></div>
       <div class="actions">
         <button id="gerar-prompt" class="button" type="submit" disabled>Gerar prompt</button>

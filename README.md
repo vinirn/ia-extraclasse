@@ -14,4 +14,4 @@ O gerador básico usa:
 
 Para criar outro gerador, crie um `.txt` com o prompt, um `.json` com os campos correspondentes e uma página que carregue `gerador.js` e aponte para o `.json` com `data-prompt-config`.
 
-Os valores preenchidos ficam apenas na memória da página aberta. Ainda não há compartilhamento de dados entre geradores.
+Os campos com `sharedKey` na configuração são salvos em `sessionStorage` conforme o usuário digita. Outro gerador aberto na mesma aba recupera o valor se usar a mesma chave. Esses dados não são enviados ao servidor e são apagados ao fechar a aba. O botão “Limpar campos” remove os valores compartilhados dos campos do formulário atual.
