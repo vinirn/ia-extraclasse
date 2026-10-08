@@ -1,5 +1,6 @@
 {
   "template": "prompts/basico.txt",
+  "legacySharedKeys": ["conteudo", "objetivo", "perfil-turma", "recursos", "avaliacao"],
   "groups": [
     {
       "title": "Identificação da aula",
@@ -13,21 +14,21 @@
     {
       "title": "Planejamento",
       "fields": [
-        { "id": "conteudo", "label": "Conteúdo", "control": "textarea", "sharedKey": "conteudo" },
-        { "id": "objetivo", "label": "Objetivo principal", "control": "textarea", "sharedKey": "objetivo" }
+        { "id": "conteudo", "label": "Conteúdo", "control": "textarea" },
+        { "id": "objetivo", "label": "Objetivo principal", "control": "textarea" }
       ]
     },
     {
       "title": "Contexto da turma",
       "fields": [
-        { "id": "perfil-turma", "label": "Perfil da turma", "control": "textarea", "sharedKey": "perfil-turma" },
-        { "id": "recursos", "label": "Recursos disponíveis", "control": "textarea", "sharedKey": "recursos" }
+        { "id": "perfil-turma", "label": "Perfil da turma", "control": "textarea" },
+        { "id": "recursos", "label": "Recursos disponíveis", "control": "textarea" }
       ]
     },
     {
       "title": "Avaliação",
       "fields": [
-        { "id": "avaliacao", "label": "Forma de avaliação", "control": "textarea", "sharedKey": "avaliacao" }
+        { "id": "avaliacao", "label": "Forma de avaliação", "control": "textarea" }
       ]
     }
   ]

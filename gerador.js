@@ -39,6 +39,16 @@ function salvarCompartilhado(campo, valor) {
   }
 }
 
+function limparChavesAntigas(chaves) {
+  for (const chave of chaves ?? []) {
+    try {
+      sessionStorage.removeItem(`${prefixoSessao}${chave}`);
+    } catch {
+      compartilhamentoDisponivel = false;
+    }
+  }
+}
+
 async function carregarTexto(caminho) {
   const resposta = await fetch(caminho);
   if (!resposta.ok) throw new Error(`Não foi possível carregar ${caminho}.`);
@@ -103,11 +113,12 @@ async function iniciar() {
   try {
     configuracao = JSON.parse(await carregarTexto(pagina.dataset.promptConfig));
     modelo = await carregarTexto(configuracao.template);
+    limparChavesAntigas(configuracao.legacySharedKeys);
     montarFormulario(configuracao.groups);
     botaoGerar.disabled = false;
     mensagem.textContent = compartilhamentoDisponivel
-      ? "Preencha os campos para gerar o prompt. Os dados podem ser usados em outros geradores nesta aba."
-      : "Preencha os campos para gerar o prompt. O navegador não permitiu compartilhar os dados nesta aba.";
+      ? "Preencha os campos para gerar o prompt. A identificação da aula pode ser usada em outros geradores nesta aba."
+      : "Preencha os campos para gerar o prompt. O navegador não permitiu compartilhar a identificação nesta aba.";
   } catch (erro) {
     mensagem.textContent = erro.message;
   }
@@ -145,7 +156,7 @@ formulario.addEventListener("reset", () => {
   promptGerado = "";
   textoPrompt.value = "";
   resultado.hidden = true;
-  mensagem.textContent = "Campos e dados compartilhados desta página limpos.";
+  mensagem.textContent = "Campos e dados compartilhados de identificação limpos.";
 });
 
 copiarPrompt.addEventListener("click", async () => {
