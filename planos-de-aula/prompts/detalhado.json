@@ -70,11 +70,6 @@
           "control": "textarea"
         },
         {
-          "id": "detalhado-13",
-          "label": "Instruções e perguntas que o docente deseja utilizar",
-          "control": "textarea"
-        },
-        {
           "id": "detalhado-14",
           "label": "Produções esperadas dos estudantes",
           "control": "textarea"
