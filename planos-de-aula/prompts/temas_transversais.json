@@ -1,0 +1,61 @@
+{
+  "template": "prompts/temas_transversais.txt",
+  "groups": [
+    {
+      "title": "Plano, tema e problema",
+      "fields": [
+        {
+          "id": "transversal-1",
+          "label": "Plano de aula existente",
+          "control": "textarea",
+          "helpText": "Cole o plano completo, com turma, duração, conteúdo, objetivos, atividades e avaliação. Inclua as habilidades da BNCC que já conferiu."
+        },
+        {
+          "id": "transversal-2",
+          "label": "Tema Contemporâneo Transversal escolhido",
+          "control": "textarea",
+          "helpText": "Escolha um tema pertinente ao conteúdo. Ex.: Educação Ambiental, Educação para o Consumo, Diversidade Cultural ou Educação em Direitos Humanos."
+        },
+        {
+          "id": "transversal-3",
+          "label": "Situação ou problema da realidade local",
+          "control": "textarea",
+          "helpText": "Descreva uma questão concreta para investigar. Ex.: como verificar se há desperdício de água na escola? Diferencie fatos observados de hipóteses."
+        }
+      ]
+    },
+    {
+      "title": "Decisões e informações complementares",
+      "fields": [
+        {
+          "id": "transversal-4",
+          "label": "Atividades e decisões do docente a preservar (opcional)",
+          "control": "textarea",
+          "helpText": "Indique o que deve ser mantido. Ex.: construção de gráficos em duplas e discussão das conclusões. Pode deixar em branco para receber sugestões.",
+          "required": false
+        },
+        {
+          "id": "transversal-5",
+          "label": "Dados e fontes disponíveis (opcional)",
+          "control": "textarea",
+          "helpText": "Cole dados, trechos ou referências que os estudantes poderão analisar. Informe a origem. Se ainda não tiver dados, deixe em branco para receber uma proposta de coleta.",
+          "required": false
+        },
+        {
+          "id": "transversal-6",
+          "label": "Produto esperado dos estudantes (opcional)",
+          "control": "textarea",
+          "helpText": "Ex.: gráfico acompanhado de uma conclusão e proposta de melhoria fundamentada nos dados. Pode deixar em branco.",
+          "required": false
+        },
+        {
+          "id": "transversal-7",
+          "label": "Restrições de tempo e recursos (opcional)",
+          "control": "textarea",
+          "helpText": "Informe limites adicionais aos do plano. Ex.: sem internet, apenas caderno e quadro, sem ampliar o número de aulas. Pode deixar em branco.",
+          "required": false
+        }
+      ]
+    }
+  ]
+}

@@ -14,6 +14,11 @@ const AVALIACOES_AVANCADAS = [
     "criterio": "A relação entre habilidades, objetivos, atividades e avaliação ficou coerente?"
   },
   {
+    "id": "temas_transversais",
+    "titulo": "Integrar temas transversais ao plano",
+    "criterio": "O tema transversal foi integrado às atividades e à avaliação, além de aparecer no título ou em uma mensagem final?"
+  },
+  {
     "id": "ideias_soltas",
     "titulo": "Transformar ideias soltas em plano",
     "criterio": "O plano preservou suas ideias e as organizou em uma sequência viável?"
@@ -71,6 +76,8 @@ function criarTodosFormulariosAvancados() {
 }
 
 function criarFormulario_detalhado() { criarAvaliacaoAvancada(AVALIACOES_AVANCADAS.find(function (c) { return c.id === "detalhado"; })); }
+
+function criarFormulario_temas_transversais() { criarAvaliacaoAvancada(AVALIACOES_AVANCADAS.find(function (c) { return c.id === "temas_transversais"; })); }
 
 function criarFormulario_bncc() { criarAvaliacaoAvancada(AVALIACOES_AVANCADAS.find(function (c) { return c.id === "bncc"; })); }
 

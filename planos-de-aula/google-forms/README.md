@@ -1,6 +1,6 @@
 # Avaliações dos prompts avançados no Google Forms
 
-O script `avaliacoes-avancadas.gs` cria 12 formulários independentes, um para cada prompt além do básico, incluindo planejamento detalhado pelo docente e BNCC. Cada formulário tem oito perguntas fechadas e uma aberta: IAs testadas (seleção múltipla), IA avaliada, satisfação, critério específico do prompt, utilidade, adequação à turma, revisão necessária, principal problema e comentário.
+O script `avaliacoes-avancadas.gs` cria 13 formulários independentes, um para cada prompt além do básico, incluindo planejamento detalhado pelo docente, BNCC e temas transversais. Cada formulário tem oito perguntas fechadas e uma aberta: IAs testadas (seleção múltipla), IA avaliada, satisfação, critério específico do prompt, utilidade, adequação à turma, revisão necessária, principal problema e comentário.
 
 1. Crie um projeto em https://script.google.com/ e cole o conteúdo do script.
 2. Execute `criarTodosFormulariosAvancados` para criar todos, ou uma função `criarFormulario_*` para criar apenas o desejado. Autorize os acessos solicitados pelo Google.
@@ -12,3 +12,5 @@ A pasta do Drive já está configurada. Cada formulário recebe sua própria pla
 Os formulários online só serão criados após a execução na conta Google. O formulário do prompt básico permanece independente.
 
 Para acrescentar apenas a avaliação do planejamento detalhado, atualize o script no mesmo projeto e execute `criarFormulario_detalhado`. Os IDs dos formulários anteriores são preservados. A pergunta específica verifica se a IA respeitou as atividades e decisões do docente e sinalizou sugestões de mudança.
+
+Para criar apenas a avaliação de temas transversais, atualize o script no mesmo projeto e execute `criarFormulario_temas_transversais`. A pergunta específica verifica se o tema foi integrado às atividades e à avaliação, além do título ou de uma mensagem final. Os formulários existentes são preservados.
