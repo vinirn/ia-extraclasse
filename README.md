@@ -24,7 +24,7 @@ O módulo `planos-de-aula/index.html` contém um link para a subpágina `planos-
 
 ## Outros prompts e avaliações
 
-O módulo inclui geradores de BNCC, ideias soltas, adaptação, plano enxuto, poucos recursos, texto simples, tabela, DOCX, modelo escolar, revisão e variações, na sequência da apostila. Os `.txt` são cópias dos arquivos canônicos de `modulos/planos_de_aula/prompts/`; atualize a cópia ao modificar a fonte.
+O módulo inclui geradores de planejamento detalhado pelo docente, BNCC, ideias soltas, adaptação, plano enxuto, poucos recursos, texto simples, tabela, DOCX, modelo escolar, revisão e variações, na sequência da apostila. Os `.txt` são cópias dos arquivos canônicos de `modulos/planos_de_aula/prompts/`; atualize a cópia ao modificar a fonte.
 
 Campos com `marker` substituem o marcador indicado no texto; campos com `append` acrescentam o plano ou os dados da aula ao final do prompt. As quebras de linha dos textos fornecidos são preservadas. Apenas os campos com `sharedKey` são compartilhados na aba.
 

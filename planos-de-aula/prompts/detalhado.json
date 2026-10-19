@@ -1,0 +1,111 @@
+{
+  "template": "prompts/detalhado.txt",
+  "groups": [
+    {
+      "title": "Identificação da aula",
+      "fields": [
+        {
+          "id": "detalhado-3",
+          "label": "Disciplina",
+          "control": "input",
+          "sharedKey": "disciplina"
+        },
+        {
+          "id": "detalhado-4",
+          "label": "Ano/série",
+          "control": "input",
+          "sharedKey": "ano-serie"
+        },
+        {
+          "id": "detalhado-5",
+          "label": "Duração",
+          "control": "input",
+          "sharedKey": "duracao"
+        },
+        {
+          "id": "detalhado-6",
+          "label": "Tema",
+          "control": "input",
+          "sharedKey": "tema"
+        }
+      ]
+    },
+    {
+      "title": "Objetivos e contexto da turma",
+      "fields": [
+        {
+          "id": "detalhado-7",
+          "label": "Conteúdo e recorte da aula",
+          "control": "textarea"
+        },
+        {
+          "id": "detalhado-8",
+          "label": "Objetivos de aprendizagem observáveis",
+          "control": "textarea"
+        },
+        {
+          "id": "detalhado-9",
+          "label": "Conhecimentos prévios e dificuldades da turma",
+          "control": "textarea"
+        },
+        {
+          "id": "detalhado-10",
+          "label": "Número de estudantes e organização dos grupos",
+          "control": "textarea"
+        }
+      ]
+    },
+    {
+      "title": "Atividades e avaliação definidas pelo docente",
+      "fields": [
+        {
+          "id": "detalhado-11",
+          "label": "Atividades especificadas pelo docente",
+          "control": "textarea",
+          "placeholder": "Descreva o que os estudantes farão em cada atividade. Ex.: comparar dois textos em duplas, registrar diferenças e discutir as conclusões."
+        },
+        {
+          "id": "detalhado-12",
+          "label": "Sequência e tempo previsto para cada atividade",
+          "control": "textarea"
+        },
+        {
+          "id": "detalhado-13",
+          "label": "Instruções e perguntas que o docente deseja utilizar",
+          "control": "textarea"
+        },
+        {
+          "id": "detalhado-14",
+          "label": "Produções esperadas dos estudantes",
+          "control": "textarea"
+        },
+        {
+          "id": "detalhado-15",
+          "label": "Critérios e instrumentos de avaliação",
+          "control": "textarea"
+        }
+      ]
+    },
+    {
+      "title": "Recursos, apoios e referências",
+      "fields": [
+        {
+          "id": "detalhado-16",
+          "label": "Recursos disponíveis e restrições",
+          "control": "textarea"
+        },
+        {
+          "id": "detalhado-17",
+          "label": "Adaptações e apoios necessários",
+          "control": "textarea"
+        },
+        {
+          "id": "detalhado-18",
+          "label": "Referências e fontes de consulta (opcional)",
+          "control": "textarea",
+          "required": false
+        }
+      ]
+    }
+  ]
+}

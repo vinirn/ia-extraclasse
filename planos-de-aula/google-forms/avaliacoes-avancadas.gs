@@ -4,6 +4,11 @@
  */
 const AVALIACOES_AVANCADAS = [
   {
+    "id": "detalhado",
+    "titulo": "Planejamento detalhado pelo docente",
+    "criterio": "A resposta respeitou as atividades e decisões especificadas pelo docente, sinalizando sugestões de mudança?"
+  },
+  {
     "id": "bncc",
     "titulo": "Relacionar o plano à BNCC",
     "criterio": "A relação entre habilidades, objetivos, atividades e avaliação ficou coerente?"
@@ -64,6 +69,8 @@ const PASTA_AVALIACOES_AVANCADAS = '1VIN3XAvxTJL1FDYt02Bg6k3Cgesxnxdm';
 function criarTodosFormulariosAvancados() {
   AVALIACOES_AVANCADAS.forEach(criarAvaliacaoAvancada);
 }
+
+function criarFormulario_detalhado() { criarAvaliacaoAvancada(AVALIACOES_AVANCADAS.find(function (c) { return c.id === "detalhado"; })); }
 
 function criarFormulario_bncc() { criarAvaliacaoAvancada(AVALIACOES_AVANCADAS.find(function (c) { return c.id === "bncc"; })); }
 

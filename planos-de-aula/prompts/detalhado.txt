@@ -1,0 +1,25 @@
+Organize um plano de aula detalhado a partir das decisões do docente abaixo.
+
+Disciplina:
+Ano/série:
+Duração:
+Tema:
+Conteúdo e recorte da aula:
+Objetivos de aprendizagem observáveis:
+Conhecimentos prévios e dificuldades da turma:
+Número de estudantes e organização dos grupos:
+Atividades especificadas pelo docente:
+Sequência e tempo previsto para cada atividade:
+Instruções e perguntas que o docente deseja utilizar:
+Produções esperadas dos estudantes:
+Critérios e instrumentos de avaliação:
+Recursos disponíveis e restrições:
+Adaptações e apoios necessários:
+Referências e fontes de consulta (opcional):
+
+Preserve as atividades, os objetivos e as decisões do docente. Não substitua atividades nem acrescente recursos indisponíveis sem apresentar a mudança como sugestão para aprovação.
+Organize abertura, desenvolvimento e fechamento, indicando tempo, ações do docente, ações dos estudantes, recursos e evidências de aprendizagem em cada etapa.
+Confira a soma dos tempos, a viabilidade das atividades e a relação entre objetivos, produções e critérios de avaliação. Explicite incompatibilidades e proponha ajustes sem aplicá-los silenciosamente.
+Se faltarem informações essenciais, faça perguntas antes de elaborar o plano; não invente características da turma ou decisões do docente.
+Use as referências fornecidas sem inventar fontes. A associação aos códigos da BNCC será feita em um prompt posterior.
+Ao final, apresente uma lista curta dos pontos que o docente deve revisar antes da aula.
