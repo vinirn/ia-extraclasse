@@ -69,7 +69,7 @@ function criarCampo(campo) {
   entrada.required = campo.required !== false;
   if (campo.control === "textarea") entrada.rows = 3;
   else entrada.type = "text";
-  if (campo.placeholder) entrada.placeholder = campo.placeholder;
+  if (campo.helpText || campo.placeholder) entrada.placeholder = campo.helpText || campo.placeholder;
   entrada.autocomplete = "off";
   entrada.value = lerCompartilhado(campo) ?? "";
   entrada.addEventListener("input", () => salvarCompartilhado(campo, entrada.value));
@@ -78,7 +78,7 @@ function criarCampo(campo) {
   if (campo.helpText) {
     const dica = document.createElement("small");
     dica.id = `${campo.id}-dica`;
-    dica.className = "field-help";
+    dica.className = "sr-only";
     dica.textContent = campo.helpText;
     entrada.setAttribute("aria-describedby", dica.id);
     caixa.append(dica);
