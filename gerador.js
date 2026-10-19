@@ -75,6 +75,14 @@ function criarCampo(campo) {
   entrada.addEventListener("input", () => salvarCompartilhado(campo, entrada.value));
 
   caixa.append(rotulo, entrada);
+  if (campo.helpText) {
+    const dica = document.createElement("small");
+    dica.id = `${campo.id}-dica`;
+    dica.className = "field-help";
+    dica.textContent = campo.helpText;
+    entrada.setAttribute("aria-describedby", dica.id);
+    caixa.append(dica);
+  }
   return caixa;
 }
 

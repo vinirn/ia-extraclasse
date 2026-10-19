@@ -8,19 +8,22 @@
           "id": "campo-1",
           "label": "Tema",
           "control": "input",
-          "sharedKey": "tema"
+          "sharedKey": "tema",
+          "helpText": "Indique o assunto central. Ex.: frações no cotidiano ou consumo consciente de água."
         },
         {
           "id": "campo-2",
           "label": "Ano/série",
           "control": "input",
-          "sharedKey": "ano-serie"
+          "sharedKey": "ano-serie",
+          "helpText": "Indique o ano e a etapa de ensino. Ex.: 7º ano do Ensino Fundamental ou 2ª série do Ensino Médio."
         },
         {
           "id": "campo-3",
           "label": "Duração",
           "control": "input",
-          "sharedKey": "duracao"
+          "sharedKey": "duracao",
+          "helpText": "Informe o tempo total disponível. Ex.: 50 minutos ou duas aulas de 50 minutos."
         }
       ]
     }

@@ -8,25 +8,29 @@
           "id": "detalhado-3",
           "label": "Disciplina",
           "control": "input",
-          "sharedKey": "disciplina"
+          "sharedKey": "disciplina",
+          "helpText": "Informe o componente curricular. Ex.: Matemática, História ou Língua Portuguesa."
         },
         {
           "id": "detalhado-4",
           "label": "Ano/série",
           "control": "input",
-          "sharedKey": "ano-serie"
+          "sharedKey": "ano-serie",
+          "helpText": "Indique o ano e a etapa de ensino. Ex.: 7º ano do Ensino Fundamental ou 2ª série do Ensino Médio."
         },
         {
           "id": "detalhado-5",
           "label": "Duração",
           "control": "input",
-          "sharedKey": "duracao"
+          "sharedKey": "duracao",
+          "helpText": "Informe o tempo total disponível. Ex.: 50 minutos ou duas aulas de 50 minutos."
         },
         {
           "id": "detalhado-6",
           "label": "Tema",
           "control": "input",
-          "sharedKey": "tema"
+          "sharedKey": "tema",
+          "helpText": "Indique o assunto central. Ex.: frações no cotidiano ou consumo consciente de água."
         }
       ]
     },
@@ -36,23 +40,27 @@
         {
           "id": "detalhado-7",
           "label": "Conteúdo e recorte da aula",
-          "control": "textarea"
+          "control": "textarea",
+          "helpText": "Delimite o que será abordado nesta aula. Ex.: comparar frações com o mesmo denominador, sem operações de soma."
         },
         {
           "id": "detalhado-8",
           "label": "Objetivos de aprendizagem observáveis",
-          "control": "textarea"
+          "control": "textarea",
+          "helpText": "Use ações que possam ser verificadas. Ex.: comparar duas frações e explicar por escrito o raciocínio utilizado."
         },
         {
           "id": "detalhado-9",
           "label": "Conhecimentos prévios e dificuldades da turma",
-          "control": "textarea"
+          "control": "textarea",
+          "helpText": "Informe o que a turma já domina e onde precisa de apoio. Ex.: reconhece frações em desenhos, mas ainda confunde numerador e denominador."
         },
         {
           "id": "detalhado-10",
           "label": "Número de estudantes e organização dos grupos (opcional)",
           "control": "textarea",
-          "required": false
+          "required": false,
+          "helpText": "Informe o tamanho da turma e a organização desejada. Ex.: 30 estudantes, em duplas. Pode deixar em branco para receber uma sugestão."
         }
       ]
     },
@@ -64,24 +72,28 @@
           "label": "Atividades especificadas pelo docente (opcional)",
           "control": "textarea",
           "placeholder": "Descreva o que os estudantes farão em cada atividade. Ex.: comparar dois textos em duplas, registrar diferenças e discutir as conclusões.",
-          "required": false
+          "required": false,
+          "helpText": "Descreva as atividades que deseja preservar. Ex.: comparar dois textos em duplas, registrar diferenças e discutir conclusões. Pode deixar em branco para receber propostas."
         },
         {
           "id": "detalhado-12",
           "label": "Sequência e tempo previsto para cada atividade (opcional)",
           "control": "textarea",
-          "required": false
+          "required": false,
+          "helpText": "Liste as etapas na ordem desejada e seus tempos. Ex.: conversa inicial (5 min), atividade em duplas (30 min) e discussão (15 min). Pode deixar em branco."
         },
         {
           "id": "detalhado-14",
           "label": "Produções esperadas dos estudantes (opcional)",
           "control": "textarea",
-          "required": false
+          "required": false,
+          "helpText": "Indique o que os estudantes deverão produzir. Ex.: tabela comparativa no caderno e uma conclusão de três frases. Pode deixar em branco para receber sugestões."
         },
         {
           "id": "detalhado-15",
           "label": "Critérios e instrumentos de avaliação",
-          "control": "textarea"
+          "control": "textarea",
+          "helpText": "Explique o que observará e como registrará. Ex.: verificar a justificativa de cada dupla com uma lista de critérios e uma questão de saída."
         }
       ]
     },
@@ -91,19 +103,22 @@
         {
           "id": "detalhado-16",
           "label": "Recursos disponíveis e restrições",
-          "control": "textarea"
+          "control": "textarea",
+          "helpText": "Liste o que pode ser usado e as limitações. Ex.: quadro e caderno; sem internet, projetor ou impressão."
         },
         {
           "id": "detalhado-17",
           "label": "Adaptações e apoios necessários (opcional)",
           "control": "textarea",
-          "required": false
+          "required": false,
+          "helpText": "Descreva apoios pedagógicos sem identificar estudantes. Ex.: enunciados curtos, letra ampliada e tempo adicional de leitura. Pode deixar em branco."
         },
         {
           "id": "detalhado-18",
           "label": "Referências e fontes de consulta (opcional)",
           "control": "textarea",
-          "required": false
+          "required": false,
+          "helpText": "Informe materiais que devem orientar a resposta: título, trecho relevante ou link. Se a IA não puder abrir o link, cole o trecho. Pode deixar em branco."
         }
       ]
     }

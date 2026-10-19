@@ -8,13 +8,15 @@
           "id": "campo-1",
           "label": "Informações da aula",
           "control": "textarea",
-          "marker": "[cole aqui tema, turma, duração, conteúdo, objetivo e demais dados]"
+          "marker": "[cole aqui tema, turma, duração, conteúdo, objetivo e demais dados]",
+          "helpText": "Cole os dados que serão usados para preencher o modelo: tema, turma, duração, conteúdo, objetivos, atividades e avaliação."
         },
         {
           "id": "campo-2",
           "label": "Modelo a ser preenchido",
           "control": "textarea",
-          "marker": "[cole aqui o modelo da escola ou secretaria]"
+          "marker": "[cole aqui o modelo da escola ou secretaria]",
+          "helpText": "Cole os títulos e campos do formulário da escola na ordem original. Preserve as instruções de preenchimento que precisam ser seguidas."
         }
       ]
     }

@@ -8,7 +8,8 @@
           "id": "campo-1",
           "label": "Plano",
           "control": "textarea",
-          "marker": "[cole aqui o plano]"
+          "marker": "[cole aqui o plano]",
+          "helpText": "Cole o plano completo, incluindo objetivos, etapas, tempos, recursos e avaliação. Remova nomes ou outros dados pessoais dos estudantes."
         }
       ]
     }

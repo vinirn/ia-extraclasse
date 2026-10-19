@@ -1,40 +1,102 @@
 {
   "template": "prompts/basico.txt",
-  "legacySharedKeys": ["conteudo", "objetivo", "perfil-turma", "recursos", "avaliacao"],
+  "legacySharedKeys": [
+    "conteudo",
+    "objetivo",
+    "perfil-turma",
+    "recursos",
+    "avaliacao"
+  ],
   "groups": [
     {
       "title": "Identificação da aula",
       "fields": [
-        { "id": "disciplina", "label": "Disciplina", "control": "input", "sharedKey": "disciplina" },
-        { "id": "ano-serie", "label": "Ano/série", "control": "input", "sharedKey": "ano-serie" },
-        { "id": "duracao", "label": "Duração", "control": "input", "placeholder": "Ex.: 50 minutos", "sharedKey": "duracao" },
-        { "id": "tema", "label": "Tema", "control": "input", "sharedKey": "tema" }
+        {
+          "id": "disciplina",
+          "label": "Disciplina",
+          "control": "input",
+          "sharedKey": "disciplina",
+          "helpText": "Informe o componente curricular. Ex.: Matemática, História ou Língua Portuguesa."
+        },
+        {
+          "id": "ano-serie",
+          "label": "Ano/série",
+          "control": "input",
+          "sharedKey": "ano-serie",
+          "helpText": "Indique o ano e a etapa de ensino. Ex.: 7º ano do Ensino Fundamental ou 2ª série do Ensino Médio."
+        },
+        {
+          "id": "duracao",
+          "label": "Duração",
+          "control": "input",
+          "placeholder": "Ex.: 50 minutos",
+          "sharedKey": "duracao",
+          "helpText": "Informe o tempo total disponível. Ex.: 50 minutos ou duas aulas de 50 minutos."
+        },
+        {
+          "id": "tema",
+          "label": "Tema",
+          "control": "input",
+          "sharedKey": "tema",
+          "helpText": "Indique o assunto central. Ex.: frações no cotidiano ou consumo consciente de água."
+        }
       ]
     },
     {
       "title": "Planejamento",
       "fields": [
-        { "id": "conteudo", "label": "Conteúdo", "control": "textarea" },
-        { "id": "objetivo", "label": "Objetivo principal", "control": "textarea" }
+        {
+          "id": "conteudo",
+          "label": "Conteúdo",
+          "control": "textarea",
+          "helpText": "Especifique os conceitos que serão trabalhados. Ex.: comparação de frações com o mesmo denominador."
+        },
+        {
+          "id": "objetivo",
+          "label": "Objetivo principal",
+          "control": "textarea",
+          "helpText": "Diga o que os estudantes deverão conseguir fazer ao final. Ex.: comparar frações e justificar a comparação com desenhos."
+        }
       ]
     },
     {
       "title": "Contexto da turma",
       "fields": [
-        { "id": "perfil-turma", "label": "Perfil da turma", "control": "textarea" },
-        { "id": "recursos", "label": "Recursos didáticos", "control": "textarea" }
+        {
+          "id": "perfil-turma",
+          "label": "Perfil da turma",
+          "control": "textarea",
+          "helpText": "Descreva conhecimentos prévios, dificuldades e necessidades coletivas, sem identificar estudantes. Ex.: turma participativa, com dificuldades na leitura de enunciados."
+        },
+        {
+          "id": "recursos",
+          "label": "Recursos didáticos",
+          "control": "textarea",
+          "helpText": "Liste os materiais realmente disponíveis. Ex.: quadro, pincel, cadernos e livro didático; sem acesso à internet."
+        }
       ]
     },
     {
       "title": "Avaliação",
       "fields": [
-        { "id": "avaliacao", "label": "Forma de avaliação", "control": "textarea" }
+        {
+          "id": "avaliacao",
+          "label": "Forma de avaliação",
+          "control": "textarea",
+          "helpText": "Descreva como verificará a aprendizagem. Ex.: observar a discussão e pedir uma resposta individual ao final."
+        }
       ]
     },
     {
       "title": "Referências",
       "fields": [
-        { "id": "referencias", "label": "Referências e fontes de consulta (opcional)", "control": "textarea", "required": false }
+        {
+          "id": "referencias",
+          "label": "Referências e fontes de consulta (opcional)",
+          "control": "textarea",
+          "required": false,
+          "helpText": "Informe materiais que devem orientar a resposta: título, trecho relevante ou link. Se a IA não puder abrir o link, cole o trecho. Pode deixar em branco."
+        }
       ]
     }
   ]

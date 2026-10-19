@@ -8,28 +8,33 @@
           "id": "campo-1",
           "label": "Disciplina",
           "control": "input",
-          "sharedKey": "disciplina"
+          "sharedKey": "disciplina",
+          "helpText": "Informe o componente curricular. Ex.: Matemática, História ou Língua Portuguesa."
         },
         {
           "id": "campo-2",
           "label": "Ano/série",
           "control": "input",
-          "sharedKey": "ano-serie"
+          "sharedKey": "ano-serie",
+          "helpText": "Indique o ano e a etapa de ensino. Ex.: 7º ano do Ensino Fundamental ou 2ª série do Ensino Médio."
         },
         {
           "id": "campo-3",
           "label": "Plano de aula",
-          "control": "textarea"
+          "control": "textarea",
+          "helpText": "Cole o plano cujos objetivos, atividades e avaliação serão relacionados às habilidades fornecidas. Remova dados pessoais dos estudantes."
         },
         {
           "id": "campo-4",
           "label": "Habilidades da BNCC conferidas (códigos e descrições)",
-          "control": "textarea"
+          "control": "textarea",
+          "helpText": "Cole cada código junto da descrição da habilidade, após conferir na BNCC oficial. Use a página de códigos como apoio e selecione apenas habilidades pertinentes ao plano."
         },
         {
           "id": "campo-5",
           "label": "Orientações do currículo da rede ou escola",
-          "control": "textarea"
+          "control": "textarea",
+          "helpText": "Informe as orientações curriculares aplicáveis, como a distribuição de habilidades por ano ou série. Se não tiver essa informação, registre isso para que a IA peça esclarecimentos."
         }
       ]
     }

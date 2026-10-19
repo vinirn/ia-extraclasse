@@ -8,7 +8,8 @@
           "id": "campo-1",
           "label": "Plano ou informações da aula",
           "control": "textarea",
-          "append": true
+          "append": true,
+          "helpText": "Cole um plano existente ou informe tema, turma, duração, objetivos, atividades e avaliação. O gerador acrescentará esse conteúdo ao pedido de formatação."
         }
       ]
     }

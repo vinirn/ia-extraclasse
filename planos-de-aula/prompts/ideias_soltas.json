@@ -8,7 +8,8 @@
           "id": "campo-1",
           "label": "Anotações",
           "control": "textarea",
-          "marker": "[cole aqui as ideias soltas]"
+          "marker": "[cole aqui as ideias soltas]",
+          "helpText": "Cole suas ideias, mesmo sem organização. Inclua o tema, a turma, o tempo disponível e as atividades que gostaria de realizar."
         }
       ]
     }

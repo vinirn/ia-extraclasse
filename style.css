@@ -63,6 +63,7 @@ p { line-height: 1.6; }
 .form-grid { display: grid; gap: 1.2rem; grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .field { display: flex; flex-direction: column; gap: 0.4rem; }
 .field-wide { grid-column: 1 / -1; }
+.field-help { color: #38594a; font-size: 0.875rem; line-height: 1.5; }
 label { font-weight: 700; }
 input, textarea {
   width: 100%;

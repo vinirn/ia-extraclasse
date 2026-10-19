@@ -8,33 +8,39 @@
           "id": "campo-1",
           "label": "Plano original",
           "control": "textarea",
-          "marker": "[cole aqui o plano]"
+          "marker": "[cole aqui o plano]",
+          "helpText": "Cole o plano que deseja adaptar, incluindo objetivos, atividades, tempos, recursos e avaliação. Remova dados pessoais dos estudantes."
         },
         {
           "id": "campo-2",
           "label": "Ano/série",
           "control": "input",
-          "sharedKey": "ano-serie"
+          "sharedKey": "ano-serie",
+          "helpText": "Indique o ano e a etapa de ensino. Ex.: 7º ano do Ensino Fundamental ou 2ª série do Ensino Médio."
         },
         {
           "id": "campo-3",
           "label": "Duração disponível",
-          "control": "textarea"
+          "control": "textarea",
+          "helpText": "Informe o tempo da aula na nova turma. Ex.: 40 minutos, incluindo abertura e fechamento."
         },
         {
           "id": "campo-4",
           "label": "Características da turma",
-          "control": "textarea"
+          "control": "textarea",
+          "helpText": "Descreva a nova turma: conhecimentos prévios, ritmo de aprendizagem e necessidades de apoio. Evite nomes e dados pessoais."
         },
         {
           "id": "campo-5",
           "label": "Recursos didáticos",
-          "control": "textarea"
+          "control": "textarea",
+          "helpText": "Liste os materiais realmente disponíveis. Ex.: quadro, pincel, cadernos e livro didático; sem acesso à internet."
         },
         {
           "id": "campo-6",
           "label": "O que precisa mudar",
-          "control": "textarea"
+          "control": "textarea",
+          "helpText": "Explique as mudanças necessárias. Ex.: reduzir de 100 para 50 minutos, substituir o vídeo por leitura e organizar trabalho em duplas."
         }
       ]
     }
