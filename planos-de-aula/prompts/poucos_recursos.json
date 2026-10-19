@@ -1,0 +1,28 @@
+{
+  "template": "prompts/poucos_recursos.txt",
+  "groups": [
+    {
+      "title": "Dados para o prompt",
+      "fields": [
+        {
+          "id": "campo-1",
+          "label": "Tema",
+          "control": "input",
+          "sharedKey": "tema"
+        },
+        {
+          "id": "campo-2",
+          "label": "Ano/série",
+          "control": "input",
+          "sharedKey": "ano-serie"
+        },
+        {
+          "id": "campo-3",
+          "label": "Duração",
+          "control": "input",
+          "sharedKey": "duracao"
+        }
+      ]
+    }
+  ]
+}

@@ -99,15 +99,19 @@ function gerarTexto(valores) {
   const linhas = modelo.replace(/\r\n/g, "\n").split("\n");
 
   for (const campo of configuracao.groups.flatMap((group) => group.fields)) {
-    const indice = linhas.indexOf(`${campo.label}:`);
+    const valor = valores[campo.id].trim();
+    if (campo.append) {
+      if (valor) linhas.push("", `${campo.label}:`, valor);
+      continue;
+    }
+    const indice = linhas.indexOf(campo.marker ?? `${campo.label}:`);
     if (indice === -1) throw new Error(`O campo “${campo.label}” não foi encontrado no modelo.`);
 
-    const valor = valores[campo.id].replace(/\s*\n\s*/g, " ").trim();
     if (!valor && campo.required === false) {
       linhas.splice(indice, 1);
       continue;
     }
-    linhas[indice] = `${campo.label}: ${valor}`;
+    linhas[indice] = campo.marker ? valor : `${campo.label}: ${valor}`;
   }
 
   return linhas.join("\n").trimEnd();

@@ -1,0 +1,14 @@
+Elabore o plano de aula em texto simples, sem tabela.
+
+Use subtítulos curtos e organize o resultado nesta ordem:
+Tema
+Ano/série
+Duração
+Objetivo
+Conteúdo
+Desenvolvimento da aula
+Atividade dos estudantes
+Avaliação
+Observações
+
+Escreva em formato fácil de copiar para um documento ou sistema escolar.

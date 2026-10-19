@@ -1,0 +1,16 @@
+{
+  "template": "prompts/ideias_soltas.txt",
+  "groups": [
+    {
+      "title": "Dados para o prompt",
+      "fields": [
+        {
+          "id": "campo-1",
+          "label": "Anotações",
+          "control": "textarea",
+          "marker": "[cole aqui as ideias soltas]"
+        }
+      ]
+    }
+  ]
+}

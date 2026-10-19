@@ -1,0 +1,16 @@
+{
+  "template": "prompts/texto_simples.txt",
+  "groups": [
+    {
+      "title": "Dados para o prompt",
+      "fields": [
+        {
+          "id": "campo-1",
+          "label": "Plano ou informações da aula",
+          "control": "textarea",
+          "append": true
+        }
+      ]
+    }
+  ]
+}

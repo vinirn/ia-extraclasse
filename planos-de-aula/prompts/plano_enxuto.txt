@@ -1,0 +1,15 @@
+Crie uma versão enxuta de plano de aula para uso direto pelo professor.
+
+Tema:
+Ano/série:
+Duração:
+Objetivo:
+
+Inclua apenas:
+1. abertura da aula;
+2. explicação principal;
+3. atividade dos estudantes;
+4. fechamento;
+5. avaliação rápida.
+
+Evite texto longo. Escreva em formato de checklist.

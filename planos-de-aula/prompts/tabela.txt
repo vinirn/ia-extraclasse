@@ -1,0 +1,17 @@
+Elabore o plano de aula em formato de tabela.
+
+A tabela deve ter duas colunas:
+1. Campo
+2. Descrição
+
+Use os seguintes campos:
+Tema
+Ano/série
+Duração
+Objetivo de aprendizagem
+Conteúdo
+Recursos
+Etapas da aula
+Atividade dos estudantes
+Avaliação
+Adaptações necessárias

@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Preencha os dados da aula e gere um prompt para planejar sua aula com apoio de IA.">
+  <title>Transformar ideias soltas em plano — Gerador de prompt para plano de aula — IA Extraclasse</title>
+  <link rel="stylesheet" href="../style.css">
+  <script src="../gerador.js" defer></script>
+</head>
+<body>
+  <main class="container" data-prompt-config="prompts/ideias_soltas.json">
+    <a class="back-link" href="./">← Planos de aula</a>
+    <p class="eyebrow">Planos de aula</p>
+    <h1>Transformar ideias soltas em plano</h1>
+    <p class="subtitle">Gerador de prompt para plano de aula</p>
+    <p>Preencha os campos, gere o prompt e confira o texto antes de copiá-lo para a IA. Os campos de identificação podem ser reaproveitados nesta aba. Planos, anotações e demais textos ficam somente nesta página.</p>
+
+    <form id="formulario-prompt" class="card form-card" autocomplete="off">
+      <div id="grupos-campos"></div>
+      <div class="actions">
+        <button id="gerar-prompt" class="button" type="submit" disabled>Gerar prompt</button>
+        <button class="button button-secondary" type="reset">Limpar campos</button>
+      </div>
+    </form>
+
+    <section id="resultado" class="card" aria-labelledby="resultado-titulo" hidden>
+      <h2 id="resultado-titulo">Seu prompt</h2>
+      <textarea id="texto-prompt" class="prompt-output" aria-labelledby="resultado-titulo" rows="16" wrap="soft" spellcheck="false" readonly></textarea>
+      <button id="copiar-prompt" class="button" type="button">Copiar prompt</button>
+    </section>
+    <p id="mensagem" class="status" role="status" aria-live="polite">Carregando campos do prompt…</p>
+  </main>
+</body>
+</html>

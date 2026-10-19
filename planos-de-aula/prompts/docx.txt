@@ -1,0 +1,5 @@
+Elabore o plano de aula em formato adequado para copiar e colar em um arquivo DOCX.
+
+Use título principal, subtítulos e listas numeradas quando necessário.
+Evite tabela, pois quero poder editar facilmente no Word, LibreOffice ou Google Docs.
+Deixe o texto organizado, com campos bem identificados e linguagem formal.

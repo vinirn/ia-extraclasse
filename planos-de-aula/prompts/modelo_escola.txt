@@ -1,0 +1,12 @@
+Preencha o modelo de plano de aula abaixo usando as informações fornecidas.
+
+Não altere a estrutura do modelo.
+Não remova campos.
+Se alguma informação estiver ausente, escreva "[preencher pelo professor]".
+Mantenha linguagem objetiva e adequada a documento escolar.
+
+Informações da aula:
+[cole aqui tema, turma, duração, conteúdo, objetivo e demais dados]
+
+Modelo a ser preenchido:
+[cole aqui o modelo da escola ou secretaria]

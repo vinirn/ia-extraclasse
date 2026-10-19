@@ -1,0 +1,14 @@
+Relacione o plano de aula às habilidades da BNCC fornecidas pelo professor.
+
+Disciplina:
+Ano/série:
+Plano de aula:
+Habilidades da BNCC conferidas (códigos e descrições):
+Orientações do currículo da rede ou escola:
+
+Use somente os códigos e descrições fornecidos. Não invente nem complete códigos de memória.
+Para cada habilidade pertinente, explique a relação com o objetivo, a atividade dos estudantes e a avaliação do plano.
+Se uma habilidade não se relacionar ao plano, explicite a incompatibilidade. Se faltarem informações, peça esclarecimentos.
+No Ensino Médio, não atribua habilidades EM13 a uma série específica sem respaldo no currículo informado.
+Proponha ajustes no plano quando necessário e apresente uma versão revisada, preservando os códigos e as descrições fornecidos.
+A indicação da IA é uma proposta: destaque o que o professor precisa conferir antes de aplicar o plano.

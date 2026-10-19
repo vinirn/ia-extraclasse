@@ -1,0 +1,37 @@
+{
+  "template": "prompts/bncc.txt",
+  "groups": [
+    {
+      "title": "Dados para o prompt",
+      "fields": [
+        {
+          "id": "campo-1",
+          "label": "Disciplina",
+          "control": "input",
+          "sharedKey": "disciplina"
+        },
+        {
+          "id": "campo-2",
+          "label": "Ano/série",
+          "control": "input",
+          "sharedKey": "ano-serie"
+        },
+        {
+          "id": "campo-3",
+          "label": "Plano de aula",
+          "control": "textarea"
+        },
+        {
+          "id": "campo-4",
+          "label": "Habilidades da BNCC conferidas (códigos e descrições)",
+          "control": "textarea"
+        },
+        {
+          "id": "campo-5",
+          "label": "Orientações do currículo da rede ou escola",
+          "control": "textarea"
+        }
+      ]
+    }
+  ]
+}

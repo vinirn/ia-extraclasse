@@ -21,3 +21,11 @@ Um campo com `"required": false` é opcional. Se ficar vazio, sua linha é omiti
 ## Códigos da BNCC
 
 O módulo `planos-de-aula/index.html` contém um link para a subpágina `planos-de-aula/bncc/index.html`, que disponibiliza os arquivos em `planos-de-aula/bncc/`, copiados de `referências/bncc_codigos_extraidos` do projeto do curso. A consulta está organizada por ano e componente do Ensino Fundamental e por área do Ensino Médio, com um índice das páginas de origem.
+
+## Outros prompts e avaliações
+
+O módulo inclui geradores de BNCC, ideias soltas, adaptação, plano enxuto, poucos recursos, texto simples, tabela, DOCX, modelo escolar, revisão e variações, na sequência da apostila. Os `.txt` são cópias dos arquivos canônicos de `modulos/planos_de_aula/prompts/`; atualize a cópia ao modificar a fonte.
+
+Campos com `marker` substituem o marcador indicado no texto; campos com `append` acrescentam o plano ou os dados da aula ao final do prompt. As quebras de linha dos textos fornecidos são preservadas. Apenas os campos com `sharedKey` são compartilhados na aba.
+
+O script `planos-de-aula/google-forms/avaliacoes-avancadas.gs` é uma cópia de `modulos/planos_de_aula/formularios_avaliacao_prompts_avancados.gs`. As instruções estão em `planos-de-aula/google-forms/README.md`. Os formulários online são criados quando o professor executa o script em sua conta Google.

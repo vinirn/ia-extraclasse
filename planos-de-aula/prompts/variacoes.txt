@@ -1,0 +1,10 @@
+Crie três variações do plano de aula abaixo:
+
+Plano:
+[cole aqui o plano]
+
+Variação 1: aula mais curta.
+Variação 2: aula com atividade em grupo.
+Variação 3: aula sem nenhum recurso tecnológico.
+
+Mantenha o mesmo objetivo central.
