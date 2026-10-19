@@ -50,8 +50,9 @@
         },
         {
           "id": "detalhado-10",
-          "label": "Número de estudantes e organização dos grupos",
-          "control": "textarea"
+          "label": "Número de estudantes e organização dos grupos (opcional)",
+          "control": "textarea",
+          "required": false
         }
       ]
     },
@@ -60,19 +61,22 @@
       "fields": [
         {
           "id": "detalhado-11",
-          "label": "Atividades especificadas pelo docente",
+          "label": "Atividades especificadas pelo docente (opcional)",
           "control": "textarea",
-          "placeholder": "Descreva o que os estudantes farão em cada atividade. Ex.: comparar dois textos em duplas, registrar diferenças e discutir as conclusões."
+          "placeholder": "Descreva o que os estudantes farão em cada atividade. Ex.: comparar dois textos em duplas, registrar diferenças e discutir as conclusões.",
+          "required": false
         },
         {
           "id": "detalhado-12",
-          "label": "Sequência e tempo previsto para cada atividade",
-          "control": "textarea"
+          "label": "Sequência e tempo previsto para cada atividade (opcional)",
+          "control": "textarea",
+          "required": false
         },
         {
           "id": "detalhado-14",
-          "label": "Produções esperadas dos estudantes",
-          "control": "textarea"
+          "label": "Produções esperadas dos estudantes (opcional)",
+          "control": "textarea",
+          "required": false
         },
         {
           "id": "detalhado-15",
@@ -91,8 +95,9 @@
         },
         {
           "id": "detalhado-17",
-          "label": "Adaptações e apoios necessários",
-          "control": "textarea"
+          "label": "Adaptações e apoios necessários (opcional)",
+          "control": "textarea",
+          "required": false
         },
         {
           "id": "detalhado-18",
