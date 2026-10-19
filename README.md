@@ -20,4 +20,4 @@ Um campo com `"required": false` é opcional. Se ficar vazio, sua linha é omiti
 
 ## Códigos da BNCC
 
-O módulo `planos-de-aula/index.html` disponibiliza os arquivos em `planos-de-aula/bncc/`, copiados de `referências/bncc_codigos_extraidos` do projeto do curso. A consulta está organizada por ano e componente do Ensino Fundamental e por área do Ensino Médio, com um índice das páginas de origem.
+O módulo `planos-de-aula/index.html` contém um link para a subpágina `planos-de-aula/bncc/index.html`, que disponibiliza os arquivos em `planos-de-aula/bncc/`, copiados de `referências/bncc_codigos_extraidos` do projeto do curso. A consulta está organizada por ano e componente do Ensino Fundamental e por área do Ensino Médio, com um índice das páginas de origem.
