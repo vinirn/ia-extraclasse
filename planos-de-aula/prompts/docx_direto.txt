@@ -1,0 +1,12 @@
+Gere um arquivo DOCX editável com o plano de aula abaixo e disponibilize o arquivo para download nesta conversa.
+
+Plano de aula:
+Nome do arquivo (opcional):
+Preferências de formatação (opcional):
+
+Preserve o conteúdo do plano. Não invente informações; sinalize lacunas com "[preencher pelo professor]".
+Use títulos, subtítulos e listas editáveis. Se não houver preferências, use página A4, margens de 2,5 cm e fonte de 12 pontos.
+Crie um arquivo .docx válido, com texto editável, e não uma imagem do plano nem um arquivo de texto com a extensão trocada.
+Confira se o documento contém todo o plano e se a formatação está legível. Use "plano_de_aula.docx" se nenhum nome for informado.
+Entregue o arquivo como anexo ou link real de download gerado pela ferramenta, acompanhado de uma breve confirmação.
+Se esta ferramenta não permitir criar ou anexar arquivos DOCX, informe a limitação claramente. Não invente links nem afirme que criou um arquivo inexistente.

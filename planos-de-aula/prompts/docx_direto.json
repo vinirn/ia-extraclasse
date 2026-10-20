@@ -1,0 +1,30 @@
+{
+  "template": "prompts/docx_direto.txt",
+  "groups": [
+    {
+      "title": "Conteúdo e arquivo",
+      "fields": [
+        {
+          "id": "plano",
+          "label": "Plano de aula",
+          "control": "textarea",
+          "helpText": "Cole o plano completo e já revisado, com objetivos, atividades, tempos, recursos e avaliação. A IA deverá preservá-lo no arquivo."
+        },
+        {
+          "id": "nome-arquivo",
+          "label": "Nome do arquivo (opcional)",
+          "control": "input",
+          "required": false,
+          "helpText": "Ex.: plano_fracoes_7ano.docx. Se deixar vazio, será usado plano_de_aula.docx."
+        },
+        {
+          "id": "formatacao",
+          "label": "Preferências de formatação (opcional)",
+          "control": "textarea",
+          "required": false,
+          "helpText": "Ex.: fonte Arial 12, títulos em negrito e atividades numeradas. Se deixar vazio, serão usadas página A4, margens de 2,5 cm e fonte de 12 pontos."
+        }
+      ]
+    }
+  ]
+}
