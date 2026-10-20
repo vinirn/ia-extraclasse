@@ -37,3 +37,7 @@ A prática de temas transversais se inspira no guia do MEC (2019), *Temas Contem
 O módulo `slides/` oferece três geradores: aula completa, aula visual e aula com notas do professor. O docente cola o plano do módulo Planos de aula; os demais campos são opcionais. O site gera o prompt e a IA escolhida cria o PPTX, quando dispõe de criação de arquivos.
 
 As fontes dos prompts estão em `modulos/slides/prompts/` no projeto do curso, junto da apostila e apresentação. Mantenha as cópias `.txt` do site sincronizadas e os rótulos JSON correspondentes às linhas do modelo.
+
+## Apostila de Planos de aula
+
+O topo de `planos-de-aula/index.html` oferece a apostila em PDF. O arquivo `planos-de-aula/apostila.pdf` é uma cópia de `modulos/planos_de_aula/apostila.pdf` do projeto do curso; atualize essa cópia após recompilar a apostila.
