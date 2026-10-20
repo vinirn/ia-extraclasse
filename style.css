@@ -128,7 +128,7 @@ textarea { resize: vertical; }
 .documents-page section { margin-top: 3rem; }
 .document-list { display: grid; gap: 1rem; margin: 1.25rem 0 0; padding: 0; list-style: none; }
 .document-card { padding: 1.4rem; border: 1px solid #d5e4da; border-radius: 0.8rem; background: #fff; }
-.document-card h3 { margin: 0 0 0.35rem; font-size: 1.15rem; line-height: 1.35; }
+.document-card h2, .document-card h3 { margin: 0 0 0.35rem; font-size: 1.15rem; line-height: 1.35; }
 .document-card p { margin: 0.5rem 0 0.85rem; }
 .document-card .document-meta { color: #405f50; font-size: 0.9rem; font-weight: 600; }
 .document-links { line-height: 2; }
