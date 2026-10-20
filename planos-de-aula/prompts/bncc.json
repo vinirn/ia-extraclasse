@@ -26,15 +26,16 @@
         },
         {
           "id": "campo-4",
-          "label": "Habilidades da BNCC conferidas (códigos e descrições)",
+          "label": "Conjunto de habilidades da BNCC (cole os códigos e as descrições, sem selecionar previamente os adequados ao plano)",
           "control": "textarea",
-          "helpText": "Cole cada código junto da descrição da habilidade, após conferir na BNCC oficial. Use a página de códigos como apoio e selecione apenas habilidades pertinentes ao plano."
+          "helpText": "Copie e cole o conjunto de códigos e descrições da etapa, ano ou série e componente curricular. A IA escolherá as habilidades pertinentes ao plano e justificará a seleção."
         },
         {
           "id": "campo-5",
-          "label": "Orientações do currículo da rede ou escola",
+          "label": "Orientações do currículo da rede ou escola (se houver)",
           "control": "textarea",
-          "helpText": "Informe as orientações curriculares aplicáveis, como a distribuição de habilidades por ano ou série. Se não tiver essa informação, registre isso para que a IA peça esclarecimentos."
+          "helpText": "Se houver, informe as orientações curriculares aplicáveis, como a distribuição de habilidades por ano ou série.",
+          "required": false
         }
       ]
     }
