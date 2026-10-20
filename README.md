@@ -31,3 +31,9 @@ Campos com `marker` substituem o marcador indicado no texto; campos com `append`
 Os scripts individuais em `planos-de-aula/google-forms/` são cópias de `modulos/planos_de_aula/google_forms/`, um arquivo independente por avaliação. As instruções estão em `planos-de-aula/google-forms/README.md`. Os formulários online são criados quando o professor executa o script em sua conta Google.
 
 A prática de temas transversais se inspira no guia do MEC (2019), *Temas Contemporâneos Transversais na BNCC: Propostas de Práticas de Implementação*, pp. 8–9 e 12. O gerador parte de um plano existente, um tema e um problema local; os demais campos são opcionais.
+
+## Slides em PPTX
+
+O módulo `slides/` oferece três geradores: aula completa, aula visual e aula com notas do professor. O docente cola o plano do módulo Planos de aula; os demais campos são opcionais. O site gera o prompt e a IA escolhida cria o PPTX, quando dispõe de criação de arquivos.
+
+As fontes dos prompts estão em `modulos/slides/prompts/` no projeto do curso, junto da apostila e apresentação. Mantenha as cópias `.txt` do site sincronizadas e os rótulos JSON correspondentes às linhas do modelo.

@@ -1,0 +1,38 @@
+{
+  "template": "prompts/aula_com_notas.txt",
+  "groups": [
+    {
+      "title": "Do plano de aula aos slides",
+      "fields": [
+        {
+          "id": "campo-1",
+          "label": "Plano de aula (cole o plano criado no módulo Planos de aula)",
+          "control": "textarea",
+          "required": true,
+          "helpText": "Cole o plano completo elaborado e revisado no módulo Planos de aula."
+        },
+        {
+          "id": "campo-2",
+          "label": "Quantidade de slides (opcional)",
+          "control": "input",
+          "required": false,
+          "helpText": "Se desejar, informe o número de slides."
+        },
+        {
+          "id": "campo-3",
+          "label": "Preferências visuais ou de acessibilidade (opcional)",
+          "control": "textarea",
+          "required": false,
+          "helpText": "Informe cores, tamanho de texto ou necessidades da turma."
+        },
+        {
+          "id": "campo-4",
+          "label": "Nome do arquivo (opcional)",
+          "control": "input",
+          "required": false,
+          "helpText": "Ex.: aula_fracoes.pptx."
+        }
+      ]
+    }
+  ]
+}

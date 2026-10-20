@@ -1,0 +1,16 @@
+Gere um arquivo PPTX editável a partir do plano de aula abaixo e disponibilize-o para download nesta conversa.
+
+Plano de aula (cole o plano criado no módulo Planos de aula):
+Quantidade de slides (opcional):
+Preferências visuais ou de acessibilidade (opcional):
+Nome do arquivo (opcional):
+
+Transforme o plano em uma apresentação para os estudantes, com notas do apresentador para orientar a condução da aula.
+Nas notas de cada slide, inclua orientações de fala, transições, tempo sugerido e mediação das atividades, respeitando a duração total. Coloque respostas e critérios de correção nas notas, sem antecipá-los nos slides dos estudantes.
+Preserve os objetivos, o conteúdo, a turma, os tempos e as decisões pedagógicas do plano. Não crie novas habilidades da BNCC nem altere os códigos e descrições fornecidos.
+Use a linguagem adequada à turma. Se faltarem dados indispensáveis, peça esclarecimentos; não invente fontes, fatos ou informações da escola.
+Se a quantidade não for informada, escolha uma quantidade compatível com a duração e as etapas do plano. Se o limite pedido comprometer as atividades, explique e peça ajuste.
+Use formato 16:9, bom contraste, títulos claros e fonte de pelo menos 24 pontos no corpo. Divida o conteúdo para evitar excesso de texto, cortes e sobreposições.
+Crie um .pptx válido, com textos e elementos didáticos editáveis; não entregue apenas um roteiro, código ou imagens de slides. Use "aula_com_notas.pptx" se não houver nome informado.
+Confira a sequência, a cobertura das atividades, a legibilidade e a integridade do arquivo. Entregue um anexo ou link real de download e indique brevemente o que o professor deve revisar.
+Se a ferramenta não permitir criar ou anexar arquivos PPTX, informe a limitação claramente. Não invente links nem afirme que criou um arquivo inexistente.
