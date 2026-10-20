@@ -28,6 +28,6 @@ O módulo inclui geradores de planejamento detalhado pelo docente, BNCC, temas t
 
 Campos com `marker` substituem o marcador indicado no texto; campos com `append` acrescentam o plano ou os dados da aula ao final do prompt. As quebras de linha dos textos fornecidos são preservadas. Apenas os campos com `sharedKey` são compartilhados na aba.
 
-O script `planos-de-aula/google-forms/avaliacoes-avancadas.gs` é uma cópia de `modulos/planos_de_aula/formularios_avaliacao_prompts_avancados.gs`. As instruções estão em `planos-de-aula/google-forms/README.md`. Os formulários online são criados quando o professor executa o script em sua conta Google.
+Os scripts individuais em `planos-de-aula/google-forms/` são cópias de `modulos/planos_de_aula/google_forms/`, um arquivo independente por avaliação. As instruções estão em `planos-de-aula/google-forms/README.md`. Os formulários online são criados quando o professor executa o script em sua conta Google.
 
 A prática de temas transversais se inspira no guia do MEC (2019), *Temas Contemporâneos Transversais na BNCC: Propostas de Práticas de Implementação*, pp. 8–9 e 12. O gerador parte de um plano existente, um tema e um problema local; os demais campos são opcionais.

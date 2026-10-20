@@ -115,3 +115,9 @@ textarea { resize: vertical; }
 @media (max-width: 38rem) {
   .form-grid { grid-template-columns: 1fr; }
 }
+
+.temas-referencia { margin: 2rem 0; }
+.temas-referencia img { display: block; width: 100%; height: auto; }
+.temas-referencia figcaption { margin-top: 0.6rem; font-size: 0.85rem; line-height: 1.5; }
+.temas-referencia details { margin-top: 1rem; line-height: 1.5; }
+.temas-referencia summary { cursor: pointer; }

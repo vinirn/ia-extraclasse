@@ -1,16 +1,32 @@
-# Avaliações dos prompts avançados no Google Forms
+# Scripts individuais do Google Forms
 
-O script `avaliacoes-avancadas.gs` cria 13 formulários independentes, um para cada prompt além do básico, incluindo planejamento detalhado pelo docente, BNCC e temas transversais. Cada formulário tem oito perguntas fechadas e uma aberta: IAs testadas (seleção múltipla), IA avaliada, satisfação, critério específico do prompt, utilidade, adequação à turma, revisão necessária, principal problema e comentário.
+Cada arquivo `.gs` é independente e cria ou reutiliza somente uma avaliação e sua planilha. São 14 arquivos: o básico e 13 prompts avançados.
 
-1. Crie um projeto em https://script.google.com/ e cole o conteúdo do script.
-2. Execute `criarTodosFormulariosAvancados` para criar todos, ou uma função `criarFormulario_*` para criar apenas o desejado. Autorize os acessos solicitados pelo Google.
-3. Confira os links de edição, resposta e planilha no registro de execução.
-4. Teste os links e confira as respostas na planilha antes da aula.
+1. No Google Apps Script, copie o conteúdo do arquivo da avaliação desejada para um arquivo `.gs`.
+2. Execute a função indicada na tabela e autorize os acessos solicitados pelo Google.
+3. Consulte os links de edição, resposta e planilha no registro de execução. Teste antes da aula.
 
-A pasta do Drive já está configurada. Cada formulário recebe sua própria planilha; não há coleta de nomes ou e-mails. Execute novamente no mesmo projeto para reutilizar os formulários, sem duplicá-los ou apagar respostas. Se a execução parar pelo limite de tempo, execute novamente. Se um formulário ficar com uma criação parcial de perguntas, o script informa seu link de edição para conferência, sem excluir itens.
+## Atualizar um projeto já utilizado
 
-Os formulários online só serão criados após a execução na conta Google. O formulário do prompt básico permanece independente.
+Use o mesmo projeto do Apps Script para preservar os IDs guardados nas propriedades. Substitua o script agregado antigo pelos arquivos individuais desejados; não mantenha as funções antigas e as novas com o mesmo nome. Os arquivos individuais podem coexistir no mesmo projeto, pois as funções públicas têm nomes distintos e os avançados não compartilham variáveis globais.
 
-Para acrescentar apenas a avaliação do planejamento detalhado, atualize o script no mesmo projeto e execute `criarFormulario_detalhado`. Os IDs dos formulários anteriores são preservados. A pergunta específica verifica se a IA respeitou as atividades e decisões do docente e sinalizou sugestões de mudança.
+Não existe mais a função `criarTodosFormulariosAvancados`: execute apenas a função da avaliação desejada. Um projeto novo não recupera as propriedades do antigo e criará novos formulários.
 
-Para criar apenas a avaliação de temas transversais, atualize o script no mesmo projeto e execute `criarFormulario_temas_transversais`. A pergunta específica verifica se o tema foi integrado às atividades e à avaliação, além do título ou de uma mensagem final. Os formulários existentes são preservados.
+Os scripts avançados preservam perguntas e respostas existentes. O básico mantém sua lógica anterior: se houver respostas, não troca perguntas com títulos diferentes. A pasta de destino continua configurada. Os formulários online só mudam após executar o script na conta Google.
+
+| Avaliação | Arquivo | Função a executar |
+| --- | --- | --- |
+| Prompt básico | [basico.gs](basico.gs) | `criarFormularioAvaliacaoCritica` |
+| Planejamento detalhado pelo docente | [detalhado.gs](detalhado.gs) | `criarFormulario_detalhado` |
+| Relacionar o plano à BNCC | [bncc.gs](bncc.gs) | `criarFormulario_bncc` |
+| Integrar temas transversais ao plano | [temas_transversais.gs](temas_transversais.gs) | `criarFormulario_temas_transversais` |
+| Transformar ideias soltas em plano | [ideias_soltas.gs](ideias_soltas.gs) | `criarFormulario_ideias_soltas` |
+| Adaptar um plano existente | [adaptar_plano.gs](adaptar_plano.gs) | `criarFormulario_adaptar_plano` |
+| Criar um plano enxuto | [plano_enxuto.gs](plano_enxuto.gs) | `criarFormulario_plano_enxuto` |
+| Planejar com poucos recursos | [poucos_recursos.gs](poucos_recursos.gs) | `criarFormulario_poucos_recursos` |
+| Organizar em texto simples | [texto_simples.gs](texto_simples.gs) | `criarFormulario_texto_simples` |
+| Organizar em tabela | [tabela.gs](tabela.gs) | `criarFormulario_tabela` |
+| Organizar para DOCX | [docx.gs](docx.gs) | `criarFormulario_docx` |
+| Preencher o modelo da escola | [modelo_escola.gs](modelo_escola.gs) | `criarFormulario_modelo_escola` |
+| Revisar um plano | [revisao.gs](revisao.gs) | `criarFormulario_revisao` |
+| Criar variações do plano | [variacoes.gs](variacoes.gs) | `criarFormulario_variacoes` |
