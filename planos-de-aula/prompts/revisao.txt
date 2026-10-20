@@ -11,3 +11,4 @@ Verifique:
 - se há algum ponto confuso.
 
 Depois, apresente uma versão melhorada do plano.
+Entregue somente o plano de aula, em formato fácil de copiar e colar, respeitando a estrutura solicitada. Não inclua introdução, comentários, explicações, despedida ou qualquer texto fora do plano.

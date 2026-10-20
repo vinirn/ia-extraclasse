@@ -9,6 +9,7 @@ Orientações do currículo da rede ou escola (se houver):
 Analise o conjunto e selecione somente as habilidades pertinentes ao objetivo, às atividades e à avaliação do plano. Não é necessário usar todas.
 Baseie a seleção somente nos códigos e descrições fornecidos. Preserve os códigos exatamente como recebidos; não invente nem complete códigos de memória.
 No plano revisado, apresente uma seção breve "Habilidades (BNCC)" com os códigos selecionados. Pode transcrever as respectivas descrições, sem alterá-las. Não acrescente justificativas longas por habilidade nem repita os códigos em várias seções.
-Não force associações. Se nenhuma habilidade for pertinente, informe isso e indique qual conjunto de habilidades seria necessário consultar. Se faltarem dados do plano, peça esclarecimentos.
+Não force associações. Se nenhuma habilidade for pertinente, registre "[habilidades a conferir pelo professor]" no campo BNCC. Marque dados ausentes com "[preencher pelo professor]".
 No Ensino Médio, não atribua habilidades EM13 a uma série específica sem respaldo no currículo informado.
-Apresente o plano revisado com as habilidades selecionadas. Proponha ajustes apenas quando necessários, preservando as decisões pedagógicas do docente. Se houver ressalva necessária à revisão docente, registre-a fora do plano em uma única frase curta.
+Apresente o plano revisado com as habilidades selecionadas. Proponha ajustes apenas quando necessários, preservando as decisões pedagógicas do docente. Registre eventuais pendências de forma breve no campo Observações do próprio plano.
+Entregue somente o plano de aula, em formato fácil de copiar e colar, respeitando a estrutura solicitada. Não inclua introdução, comentários, explicações, despedida ou qualquer texto fora do plano.

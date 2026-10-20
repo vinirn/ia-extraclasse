@@ -8,12 +8,13 @@ Dados e fontes disponíveis (opcional):
 Produto esperado dos estudantes (opcional):
 Restrições de tempo e recursos (opcional):
 
-Relacione o tema transversal ao conteúdo e aos objetivos do plano. Se a relação for artificial, explique e proponha outro recorte para o docente escolher.
+Relacione o tema transversal ao conteúdo e aos objetivos do plano. Se a relação for artificial, registre no próprio plano um recorte alternativo identificado como proposta para revisão docente.
 Formule uma questão-problema e proponha uma atividade em que os estudantes investiguem, comparem evidências e justifiquem uma conclusão ou ação.
 Preserve as decisões fornecidas pelo docente. Identifique como sugestões as atividades ou alterações que você acrescentar.
 Não invente dados locais, depoimentos ou fontes. Se faltarem dados, proponha como coletá-los; use exemplos fictícios somente se claramente identificados.
 Mantenha os códigos e as descrições da BNCC já conferidos no plano. Se houver necessidade de outra habilidade, descreva a necessidade para conferência do docente, sem inventar códigos.
-Apresente: plano revisado, comparação entre a versão anterior e a nova e critérios para avaliar a aprendizagem do conteúdo e a análise do problema transversal.
-Explique o que mudou nas atividades, na produção dos estudantes e na avaliação. Acrescentar apenas o tema ao título ou uma mensagem final não basta.
-Respeite o tempo e os recursos informados. Sinalize o que não couber e peça esclarecimentos quando faltar informação essencial.
+Apresente somente o plano revisado, incluindo critérios para avaliar a aprendizagem do conteúdo e a análise do problema transversal.
+Integre as mudanças às atividades, à produção dos estudantes e à avaliação do próprio plano. Acrescentar apenas o tema ao título ou uma mensagem final não basta.
+Respeite o tempo e os recursos informados. Registre incompatibilidades no campo Observações e marque informações essenciais ausentes com "[preencher pelo professor]".
 Para campos opcionais vazios, apresente propostas identificadas para revisão do docente, sem tratá-las como fatos ou decisões já tomadas.
+Entregue somente o plano de aula, em formato fácil de copiar e colar, respeitando a estrutura solicitada. Não inclua introdução, comentários, explicações, despedida ou qualquer texto fora do plano.
