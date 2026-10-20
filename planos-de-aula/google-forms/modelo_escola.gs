@@ -57,6 +57,7 @@ function criarFormulario_modelo_escola() {
     }
     formulario.setDestination(FormApp.DestinationType.SPREADSHEET, idPlanilha);
   }
+  if (existente) limparColunasAntigas_modelo_escola(formulario, idPlanilha);
   if (PASTA_AVALIACOES_AVANCADAS) {
     const pasta = DriveApp.getFolderById(PASTA_AVALIACOES_AVANCADAS);
     DriveApp.getFileById(formulario.getId()).moveTo(pasta);
@@ -65,4 +66,56 @@ function criarFormulario_modelo_escola() {
   formulario.setPublished(true);
   Logger.log(config.titulo + '\nEdição: ' + formulario.getEditUrl() +
     '\nRespostas: ' + formulario.getPublishedUrl() + '\nPlanilha: ' + SpreadsheetApp.openById(idPlanilha).getUrl());
+}
+
+// Remove da aba de respostas somente cabeçalhos sem pergunta atual no formulário.
+// Uma cópia integral da aba é guardada antes da primeira exclusão.
+function limparColunasAntigas_modelo_escola(formulario, idPlanilha) {
+  const planilha = SpreadsheetApp.openById(idPlanilha);
+  const abas = planilha.getSheets().filter(function (aba) {
+    const url = aba.getFormUrl();
+    return !aba.getName().startsWith('Backup respostas ') &&
+      url && url.indexOf(formulario.getId()) !== -1;
+  });
+  if (abas.length !== 1) {
+    throw new Error('Não foi possível identificar uma única aba de respostas vinculada ao formulário. Confira a planilha: ' + planilha.getUrl());
+  }
+  const aba = abas[0];
+  const ultimaColuna = aba.getLastColumn();
+  if (ultimaColuna < 2) return;
+
+  function normalizar(texto) {
+    return String(texto || '').replace(/\s+/g, ' ').trim().toLocaleLowerCase('pt-BR');
+  }
+  const titulosAtuais = new Set(formulario.getItems().map(function (item) {
+    return normalizar(item.getTitle());
+  }));
+  const colunasSistema = new Set([
+    'carimbo de data/hora', 'timestamp', 'endereço de e-mail',
+    'email address', 'e-mail', 'email'
+  ]);
+  const cabecalhos = aba.getRange(1, 1, 1, ultimaColuna).getDisplayValues()[0];
+  const encontrados = new Set();
+  const antigas = [];
+  // Percorre da direita para a esquerda: perguntas recriadas ficam na coluna mais recente.
+  for (let coluna = ultimaColuna; coluna >= 2; coluna--) {
+    const titulo = normalizar(cabecalhos[coluna - 1]);
+    if (!titulo || colunasSistema.has(titulo)) continue;
+    if (titulosAtuais.has(titulo) && !encontrados.has(titulo)) {
+      encontrados.add(titulo);
+    } else {
+      antigas.push(coluna);
+    }
+  }
+  if (antigas.length === 0) {
+    Logger.log('Nenhuma coluna de pergunta antiga na aba ' + aba.getName() + '.');
+    return;
+  }
+
+  const copia = aba.copyTo(planilha);
+  copia.setName('Backup respostas ' + Date.now());
+  copia.hideSheet();
+  antigas.forEach(function (coluna) { aba.deleteColumn(coluna); });
+  Logger.log('Colunas antigas removidas de ' + aba.getName() + ': ' + antigas.length +
+    '. Cópia anterior preservada na aba ' + copia.getName() + '.');
 }

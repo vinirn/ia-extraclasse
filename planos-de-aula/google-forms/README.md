@@ -12,7 +12,7 @@ Use o mesmo projeto do Apps Script para preservar os IDs guardados nas proprieda
 
 Não existe mais a função `criarTodosFormulariosAvancados`: execute apenas a função da avaliação desejada. Um projeto novo não recupera as propriedades do antigo e criará novos formulários.
 
-Os scripts avançados preservam perguntas e respostas existentes. O básico mantém sua lógica anterior: se houver respostas, não troca perguntas com títulos diferentes. A pasta de destino continua configurada. Os formulários online só mudam após executar o script na conta Google.
+Os scripts avançados preservam as perguntas e respostas existentes no formulário. O básico mantém sua lógica anterior: se houver respostas, não troca perguntas com títulos diferentes. Em todos os scripts, a execução também limpa da aba de respostas as colunas cujos cabeçalhos não correspondem mais às perguntas atuais do formulário. Antes de excluir qualquer coluna, o script cria uma aba oculta `Backup respostas ...` na mesma planilha, com a aba original completa. A coluna de data/hora e as colunas de e-mail são preservadas. Colunas manuais adicionadas diretamente à aba de respostas também serão tratadas como antigas; mantenha análises manuais em outra aba. A pasta de destino continua configurada. Os formulários e as planilhas online só mudam após executar o script na conta Google.
 
 | Avaliação | Arquivo | Função a executar |
 | --- | --- | --- |
