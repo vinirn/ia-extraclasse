@@ -28,7 +28,7 @@
           "id": "campo-4",
           "label": "Conjunto de habilidades da BNCC (cole os códigos e as descrições, sem selecionar previamente os adequados ao plano)",
           "control": "textarea",
-          "helpText": "Copie e cole o conjunto de códigos e descrições da etapa, ano ou série e componente curricular. A IA escolherá as habilidades pertinentes ao plano e justificará a seleção."
+          "helpText": "Copie e cole o conjunto de códigos e descrições da etapa, ano ou série e componente curricular. A IA escolherá as habilidades pertinentes e citará os códigos de forma sucinta, podendo incluir as descrições."
         },
         {
           "id": "campo-5",
