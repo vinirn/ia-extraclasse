@@ -34,7 +34,7 @@ A prática de temas transversais se inspira no guia do MEC (2019), *Temas Contem
 
 ## Slides em PPTX
 
-O módulo `slides/` oferece três geradores: aula completa, aula visual e aula com notas do professor. O docente cola o plano do módulo Planos de aula; os demais campos são opcionais. O site gera o prompt e a IA escolhida cria o PPTX, quando dispõe de criação de arquivos.
+O módulo `slides/` oferece quatro geradores: aula completa, aula visual, aula com notas do professor e busca de imagens de domínio público. O último requer acesso à web e registra as fontes das imagens no PPTX. O docente cola o plano do módulo Planos de aula; os demais campos são opcionais. O site gera o prompt e a IA escolhida cria o PPTX, quando dispõe de criação de arquivos.
 
 As fontes dos prompts estão em `modulos/slides/prompts/` no projeto do curso, junto da apostila e apresentação. Mantenha as cópias `.txt` do site sincronizadas e os rótulos JSON correspondentes às linhas do modelo.
 

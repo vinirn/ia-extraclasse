@@ -1,0 +1,52 @@
+{
+  "template": "prompts/imagens_dominio_publico.txt",
+  "groups": [
+    {
+      "title": "Plano e imagens para os slides",
+      "fields": [
+        {
+          "id": "campo-1",
+          "label": "Plano de aula (cole o plano criado no módulo Planos de aula)",
+          "control": "textarea",
+          "required": true,
+          "helpText": "Cole o plano completo que orientará a seleção das imagens."
+        },
+        {
+          "id": "campo-2",
+          "label": "Roteiro ou texto dos slides existentes (opcional)",
+          "control": "textarea",
+          "required": false,
+          "helpText": "Se já houver slides, cole seus títulos e textos para manter a sequência."
+        },
+        {
+          "id": "campo-3",
+          "label": "Temas ou cenas a ilustrar (opcional)",
+          "control": "textarea",
+          "required": false,
+          "helpText": "Indique conceitos, objetos, locais ou cenas que precisam de ilustração."
+        },
+        {
+          "id": "campo-4",
+          "label": "Quantidade de slides (opcional)",
+          "control": "input",
+          "required": false,
+          "helpText": "Informe a quantidade desejada, se houver."
+        },
+        {
+          "id": "campo-5",
+          "label": "Preferências visuais ou de acessibilidade (opcional)",
+          "control": "textarea",
+          "required": false,
+          "helpText": "Informe necessidades da turma e preferências de apresentação."
+        },
+        {
+          "id": "campo-6",
+          "label": "Nome do arquivo (opcional)",
+          "control": "input",
+          "required": false,
+          "helpText": "Ex.: aula_ilustrada.pptx."
+        }
+      ]
+    }
+  ]
+}

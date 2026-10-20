@@ -1,0 +1,21 @@
+Busque na web imagens de domínio público para ilustrar os slides da aula e gere uma apresentação PPTX com as imagens incorporadas.
+
+Plano de aula (cole o plano criado no módulo Planos de aula):
+Roteiro ou texto dos slides existentes (opcional):
+Temas ou cenas a ilustrar (opcional):
+Quantidade de slides (opcional):
+Preferências visuais ou de acessibilidade (opcional):
+Nome do arquivo (opcional):
+
+Use o plano para escolher imagens que ajudem a compreender o conteúdo. Se houver roteiro, preserve sua sequência; caso contrário, organize os slides conforme o plano, suas atividades e avaliação.
+Pesquise em acervos de museus, bibliotecas e repositórios com informações de direitos por item. Abra a página original de cada imagem e confira a declaração explícita de domínio público e seu alcance territorial antes de selecioná-la.
+Não suponha que uma imagem é de domínio público por aparecer em um buscador, estar disponível para download ou ser gratuita. Não substitua por imagens apenas licenciadas para uso livre; descarte itens com situação incerta ou restrições incompatíveis.
+Para cada imagem selecionada, registre título ou descrição, autor quando informado, instituição, URL da página do item, URL do arquivo quando disponível e a declaração de domínio público encontrada. Não invente dados nem links.
+Baixe e incorpore as imagens ao PPTX, sem depender de conexão durante a aula. Use resolução adequada, preserve proporções e evite cortes que alterem o sentido. Inclua legenda curta quando necessária e texto alternativo descritivo.
+Registre as fontes e as informações de domínio público nas notas do slide correspondente e em slides finais de fontes. Identifique a imagem e o slide a que cada registro se refere.
+Preserve os objetivos, a turma, o tempo, as atividades, a avaliação e os códigos da BNCC fornecidos. Não invente fatos ou dados. Use linguagem adequada aos estudantes.
+Use formato 16:9, bom contraste, títulos claros e fonte de pelo menos 24 pontos no corpo. Mantenha textos editáveis e imagens como objetos separados. Evite excesso de imagens, cortes e sobreposições.
+Se a quantidade de slides não for informada, ajuste-a à duração da aula. Use "aula_ilustrada.pptx" se nenhum nome de arquivo for informado.
+Se não encontrar imagem com domínio público confirmado para algum conteúdo, mantenha o slide sem imagem e registre a pendência nas notas. Não use imagem de situação incerta para completar a apresentação.
+Confira se as imagens estão incorporadas, se os links das fontes correspondem aos itens usados e se a apresentação está legível. Entregue somente o arquivo PPTX válido como anexo ou link real de download, com as fontes dentro da apresentação.
+Se não tiver acesso à web, informe que não pode realizar a busca nem verificar as imagens. Se não puder criar ou anexar PPTX, informe a limitação. Não finja ter pesquisado, verificado direitos ou gerado um arquivo.
