@@ -41,3 +41,7 @@ As fontes dos prompts estão em `modulos/slides/prompts/` no projeto do curso, j
 ## Apostila de Planos de aula
 
 O topo de `planos-de-aula/index.html` oferece a apostila em PDF. O arquivo `planos-de-aula/apostila.pdf` é uma cópia de `modulos/planos_de_aula/apostila.pdf` do projeto do curso; atualize essa cópia após recompilar a apostila.
+
+## Avaliação final do curso
+
+O [script de avaliação final](avaliacao-final/google-forms/avaliacao_final.gs) cria um formulário de feedback com campos de sugestões para o curso e de atividades extraclasse a desenvolver com IA. Consulte as [instruções de execução](avaliacao-final/google-forms/README.md). O formulário online só é criado ao executar o script na conta Google.
