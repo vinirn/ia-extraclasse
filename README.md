@@ -57,3 +57,7 @@ A página inicial e as páginas de cada módulo oferecem links diretos às apres
 | `modulos/slides/apresentacao.pdf` | `slides/apresentacao.pdf` |
 
 Após modificar os materiais e recompilar os PDFs, sincronize estas cópias antes de publicar.
+
+## Contato
+
+Prof. Marcos Vinicius Cândido Henriques: [viniciuscandido@ufersa.edu.br](mailto:viniciuscandido@ufersa.edu.br).
