@@ -45,3 +45,15 @@ O topo de `planos-de-aula/index.html` oferece a apostila em PDF. O arquivo `plan
 ## Avaliação final do curso
 
 O [script de avaliação final](avaliacao-final/google-forms/avaliacao_final.gs) cria um formulário de feedback com campos de sugestões para o curso e de atividades extraclasse a desenvolver com IA. Consulte as [instruções de execução](avaliacao-final/google-forms/README.md). O formulário online só é criado ao executar o script na conta Google.
+
+## Apresentações em PDF
+
+A página inicial e as páginas de cada módulo oferecem links diretos às apresentações:
+
+| Fonte no projeto do curso | Cópia publicada |
+| --- | --- |
+| `modulos/introducao_ia/apresentacao.pdf` | `referencias-introducao-ia/apresentacao.pdf` |
+| `modulos/planos_de_aula/apresentacao.pdf` | `planos-de-aula/apresentacao.pdf` |
+| `modulos/slides/apresentacao.pdf` | `slides/apresentacao.pdf` |
+
+Após modificar os materiais e recompilar os PDFs, sincronize estas cópias antes de publicar.
